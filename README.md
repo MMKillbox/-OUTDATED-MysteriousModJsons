@@ -1,2 +1,5 @@
 # MysteriousModJsons
-Jsons for modding
+
+
+
+#Pre setup with tools Only the Originals Folder could be outdated

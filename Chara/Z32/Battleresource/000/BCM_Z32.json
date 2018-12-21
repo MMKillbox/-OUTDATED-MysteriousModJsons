@@ -5442,7 +5442,7 @@
       "Unknown11": 0,
       "VtriggerRequirement": 0,
       "VtriggerUsed": 0,
-      "Unknown16": 98304001,
+      "Unknown16": 1,
       "InputMotionIndex": -1,
       "ScriptIndex": 760,
       "Unknown17": 8388695,
@@ -9940,9 +9940,40 @@
       "Cancels": null
     },
     {
-      "Index": 0,
+      "Index": 39,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "CA_A",
+          "Index": 76,
+          "ScriptIndex": 1200,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT_CA",
+          "Index": 78,
+          "ScriptIndex": 1206,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_CA_SC",
+          "Index": 126,
+          "ScriptIndex": 1206,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
       "Index": 40,

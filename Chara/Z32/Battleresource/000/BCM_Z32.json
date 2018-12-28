@@ -5284,8 +5284,8 @@
       "RestrictionDistance": 0.0,
       "Unknown4": 0,
       "ProjectileLimit": 0,
-      "Unknown6": 16,
-      "Unknown7": 0,
+      "Unknown6": 8208,
+      "Unknown7": 128,
       "Unknown8": 1,
       "Unknown9": 0,
       "MeterRequirement": 900,
@@ -5321,8 +5321,8 @@
       "RestrictionDistance": 0.0,
       "Unknown4": 0,
       "ProjectileLimit": 0,
-      "Unknown6": 16,
-      "Unknown7": 0,
+      "Unknown6": 8208,
+      "Unknown7": 128,
       "Unknown8": 1,
       "Unknown9": 0,
       "MeterRequirement": 900,
@@ -5425,7 +5425,7 @@
       "Offset": 0,
       "Index": 80,
       "Name": "VT1_VS1",
-      "Input": 288,
+      "Input": 576,
       "InputFlags": 4128,
       "PositionRestriction": 0,
       "Unknown3": 0,
@@ -6801,8 +6801,8 @@
       "RestrictionDistance": 0.0,
       "Unknown4": 0,
       "ProjectileLimit": 0,
-      "Unknown6": 16,
-      "Unknown7": 0,
+      "Unknown6": 8208,
+      "Unknown7": 128,
       "Unknown8": 1,
       "Unknown9": 0,
       "MeterRequirement": 900,
@@ -6813,7 +6813,7 @@
       "VtriggerUsed": 0,
       "Unknown16": 0,
       "InputMotionIndex": 14,
-      "ScriptIndex": 1201,
+      "ScriptIndex": 1593,
       "Unknown17": 81,
       "Unknown18": 0,
       "Unknown19": 0,
@@ -7148,6 +7148,43 @@
       "InputMotionIndex": 21,
       "ScriptIndex": 1206,
       "Unknown17": 82,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.9,
+      "Unknown21": 1.3,
+      "Unknown22": 9,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 127,
+      "Name": "CA2_AIR",
+      "Input": 112,
+      "InputFlags": 20496,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 8208,
+      "Unknown7": 128,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 900,
+      "MeterUsed": 900,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": 14,
+      "ScriptIndex": 1592,
+      "Unknown17": 81,
       "Unknown18": 0,
       "Unknown19": 0,
       "Unknown20": 0.9,
@@ -7567,58 +7604,18 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "ASYURASENKU_F",
-          "Index": 68,
-          "ScriptIndex": 981,
-          "CancelInts": {
-            "Unknown1": 0,
-            "Unknown2": 0
-          },
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-        {
-          "Name": "ASYURASENKU_B",
-          "Index": 70,
-          "ScriptIndex": 982,
-          "CancelInts": {
-            "Unknown1": 0,
-            "Unknown2": 0
-          },
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-		{
-          "Name": "ASYURASENKU_F_UP_A",
-          "Index": 118,
-          "ScriptIndex": 984,
-          "CancelInts": {
-            "Unknown1": 0,
-            "Unknown2": 0
-          },
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-		{
-          "Name": "ASYURASENKU_V_UP_A",
-          "Index": 121,
-          "ScriptIndex": 984,
-          "CancelInts": {
-            "Unknown1": 0,
-            "Unknown2": 0
-          },
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-		{
-          "Name": "ASYURASENKU_B_UP_A",
-          "Index": 123,
-          "ScriptIndex": 984,
-          "CancelInts": {
-            "Unknown1": 0,
-            "Unknown2": 0
-          },
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-        {
           "Name": "CA_A",
           "Index": 76,
+          "ScriptIndex": 1200,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA2_PLACEHOLDER",
+          "Index": 117,
           "ScriptIndex": 1200,
           "CancelInts": {
             "Unknown1": 0,
@@ -7895,7 +7892,57 @@
             "Unknown2": 0
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "ASYURASENKU_F",
+          "Index": 68,
+          "ScriptIndex": 981,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "ASYURASENKU_B",
+          "Index": 70,
+          "ScriptIndex": 982,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_F_UP_A",
+          "Index": 118,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_V_UP_A",
+          "Index": 121,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_B_UP_A",
+          "Index": 123,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -8056,6 +8103,16 @@
           "Name": "ASYURASENKU_B_D_A",
           "Index": 120,
           "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA2_AIR",
+          "Index": 127,
+          "ScriptIndex": 910,
           "CancelInts": {
             "Unknown1": 0,
             "Unknown2": 0
@@ -8238,6 +8295,16 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "CA2_AIR",
+          "Index": 127,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -8398,6 +8465,16 @@
           "Name": "ASYURASENKU_B_D_A",
           "Index": 120,
           "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA2_AIR",
+          "Index": 127,
+          "ScriptIndex": 910,
           "CancelInts": {
             "Unknown1": 0,
             "Unknown2": 0
@@ -8723,6 +8800,16 @@
         {
           "Name": "CA_A",
           "Index": 76,
+          "ScriptIndex": 1200,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA2_PLACEHOLDER",
+          "Index": 117,
           "ScriptIndex": 1200,
           "CancelInts": {
             "Unknown1": 0,
@@ -9146,6 +9233,16 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "CA2_PLACEHOLDER",
+          "Index": 117,
+          "ScriptIndex": 1200,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "VT_CA",
           "Index": 78,
@@ -9255,6 +9352,16 @@
           "Index": 76,
           "ScriptIndex": 1200,
           "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA2_PLACEHOLDER",
+          "Index": 117,
+          "ScriptIndex": 1200,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
@@ -9814,6 +9921,16 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "CA2_PLACEHOLDER",
+          "Index": 117,
+          "ScriptIndex": 1200,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "VT2_SP_C",
           "Index": 85,
@@ -9831,9 +9948,9 @@
       "Unknown1": 0,
       "Cancels": [
         {
-          "Name": "CA_A",
-          "Index": 76,
-          "ScriptIndex": 1200,
+          "Name": "V_CANCEL_1",
+          "Index": 116,
+          "ScriptIndex": 771,
           "CancelInts": {
             "Unknown1": 0,
             "Unknown2": 0
@@ -9841,6 +9958,97 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
+          "Name": "VT1_START",
+          "Index": 81,
+          "ScriptIndex": 740,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT2_START",
+          "Index": 82,
+          "ScriptIndex": 750,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT2_SP_C",
+          "Index": 85,
+          "ScriptIndex": 771,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_F_C",
+          "Index": 69,
+          "ScriptIndex": 981,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "ASYURASENKU_B_C",
+          "Index": 71,
+          "ScriptIndex": 982,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_F_UP_A",
+          "Index": 118,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_V_UP_A",
+          "Index": 121,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_B_UP_A",
+          "Index": 123,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT2_SP_C",
+          "Index": 85,
+          "ScriptIndex": 771,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA_SYOURYU",
+          "Index": 77,
+          "ScriptIndex": 1201,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
           "Name": "VT_CA",
           "Index": 78,
           "ScriptIndex": 1206,
@@ -9946,6 +10154,16 @@
 	  {
           "Name": "CA_A",
           "Index": 76,
+          "ScriptIndex": 1200,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA2_PLACEHOLDER",
+          "Index": 117,
           "ScriptIndex": 1200,
           "CancelInts": {
             "Unknown1": 0,
@@ -10119,12 +10337,133 @@
       "Unknown1": 0,
       "Cancels": [
         {
+          "Name": "V_CANCEL_1",
+          "Index": 116,
+          "ScriptIndex": 771,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT1_VS1",
+          "Index": 80,
+          "ScriptIndex": 760,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT1_START",
+          "Index": 81,
+          "ScriptIndex": 740,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
           "Name": "VT2_START",
           "Index": 82,
           "ScriptIndex": 750,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "VT2_SP_C",
+          "Index": 85,
+          "ScriptIndex": 771,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_F_C",
+          "Index": 69,
+          "ScriptIndex": 981,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "ASYURASENKU_B_C",
+          "Index": 71,
+          "ScriptIndex": 982,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_F_UP_A",
+          "Index": 118,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_V_UP_A",
+          "Index": 121,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_B_UP_A",
+          "Index": 123,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT2_SP_C",
+          "Index": 85,
+          "ScriptIndex": 771,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA_SYOURYU",
+          "Index": 77,
+          "ScriptIndex": 1201,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_CA",
+          "Index": 78,
+          "ScriptIndex": 1206,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_CA_SC",
+          "Index": 126,
+          "ScriptIndex": 1206,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -10132,12 +10471,133 @@
       "Unknown1": 0,
       "Cancels": [
         {
-          "Name": "VT2_START_CANCEL",
-          "Index": 83,
-          "ScriptIndex": 751,
+          "Name": "V_CANCEL_1",
+          "Index": 116,
+          "ScriptIndex": 771,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT1_VS1",
+          "Index": 80,
+          "ScriptIndex": 760,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+        {
+          "Name": "VT1_START",
+          "Index": 81,
+          "ScriptIndex": 740,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT2_START",
+          "Index": 82,
+          "ScriptIndex": 750,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT2_SP_C",
+          "Index": 85,
+          "ScriptIndex": 771,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_F_C",
+          "Index": 69,
+          "ScriptIndex": 981,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "ASYURASENKU_B_C",
+          "Index": 71,
+          "ScriptIndex": 982,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_F_UP_A",
+          "Index": 118,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_V_UP_A",
+          "Index": 121,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_B_UP_A",
+          "Index": 123,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT2_SP_C",
+          "Index": 85,
+          "ScriptIndex": 771,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA_SYOURYU",
+          "Index": 77,
+          "ScriptIndex": 1201,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_CA",
+          "Index": 78,
+          "ScriptIndex": 1206,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_CA_SC",
+          "Index": 126,
+          "ScriptIndex": 1206,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -10415,6 +10875,16 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "CA2_AIR",
+          "Index": 127,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -10529,6 +10999,16 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "CA2_AIR",
+          "Index": 127,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -10637,6 +11117,16 @@
           "Name": "ASYURASENKU_B_D_A",
           "Index": 120,
           "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA2_AIR",
+          "Index": 127,
+          "ScriptIndex": 910,
           "CancelInts": {
             "Unknown1": 0,
             "Unknown2": 0
@@ -10760,6 +11250,16 @@
 		{
           "Name": "CA_A",
           "Index": 76,
+          "ScriptIndex": 1200,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA2_PLACEHOLDER",
+          "Index": 117,
           "ScriptIndex": 1200,
           "CancelInts": {
             "Unknown1": 0,
@@ -11170,6 +11670,16 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "CA2_AIR",
+          "Index": 127,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -11372,6 +11882,16 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "CA2_AIR",
+          "Index": 127,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -11465,6 +11985,16 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "CA2_AIR",
+          "Index": 127,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {
@@ -11551,6 +12081,16 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "CA2_AIR",
+          "Index": 127,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {
@@ -11575,6 +12115,16 @@
           "Index": 23,
           "ScriptIndex": 643,
           "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA2_AIR",
+          "Index": 127,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 	  ]
@@ -11724,7 +12274,17 @@
           "ScriptIndex": 994,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "CA2_AIR",
+          "Index": 127,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -11744,13 +12304,41 @@
           "ScriptIndex": 995,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "CA2_AIR",
+          "Index": 127,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
-      "Index": 0,
+      "Index": 112,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "FA_KUREKI_EX",
+          "Index": 65,
+          "ScriptIndex": 995,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA2_AIR",
+          "Index": 127,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
       "Index": 0,
@@ -12249,6 +12837,16 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "CA2_PLACEHOLDER",
+          "Index": 117,
+          "ScriptIndex": 1200,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "VT2_SP_C",
           "Index": 85,
@@ -12618,6 +13216,16 @@
         {
           "Name": "CA_A",
           "Index": 76,
+          "ScriptIndex": 1200,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA2_PLACEHOLDER",
+          "Index": 117,
           "ScriptIndex": 1200,
           "CancelInts": {
             "Unknown1": 0,

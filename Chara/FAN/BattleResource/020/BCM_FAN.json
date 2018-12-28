@@ -6627,8 +6627,8 @@
     },
 	{
       "Offset": 0,
-      "Index": 113,
-      "Name": "236P_8LK_bugged",
+      "Index": 112,
+      "Name": "236P_8LK",
       "Input": 128,
       "InputFlags": 4112,
       "PositionRestriction": 0,
@@ -6664,7 +6664,7 @@
     },
     {
       "Offset": 0,
-      "Index": 114,
+      "Index": 113,
       "Name": "236P_8LP",
       "Input": 16,
       "InputFlags": 4112,
@@ -6701,7 +6701,7 @@
     },
 	{
       "Offset": 0,
-      "Index": 115,
+      "Index": 114,
       "Name": "236P_8MP",
       "Input": 32,
       "InputFlags": 4112,
@@ -6738,7 +6738,7 @@
     },
 	{
       "Offset": 0,
-      "Index": 116,
+      "Index": 115,
       "Name": "236P_8MK",
       "Input": 256,
       "InputFlags": 4112,
@@ -6775,7 +6775,7 @@
     },
 	{
       "Offset": 0,
-      "Index": 117,
+      "Index": 116,
       "Name": "236P_9HP",
       "Input": 64,
       "InputFlags": 4112,
@@ -6812,7 +6812,7 @@
     },
 	{
       "Offset": 0,
-      "Index": 118,
+      "Index": 117,
       "Name": "236P_9HK",
       "Input": 512,
       "InputFlags": 4112,
@@ -6849,7 +6849,7 @@
     },
 	{
       "Offset": 0,
-      "Index": 119,
+      "Index": 118,
       "Name": "236P_8LK",
       "Input": 128,
       "InputFlags": 4112,
@@ -6872,6 +6872,116 @@
       "InputMotionIndex": -1,
       "ScriptIndex": 959,
       "Unknown17": 21,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.5,
+      "Unknown21": 1.35,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 1,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 119,
+      "Name": "AIR_VSKILL_DIVE_HIT",
+      "Input": 288,
+      "InputFlags": 4128,
+      "PositionRestriction": 3,
+      "Unknown3": 4,
+      "RestrictionDistance": 0.3,
+      "ProjectileLimit": 0,
+      "Unknown6": 8192,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 1198,
+      "Unknown17": 111,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.0,
+      "Unknown21": 0.0,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 120,
+      "Name": "THAWK_DIVE",
+      "Input": 896,
+      "InputFlags": 4128,
+      "PositionRestriction": 3,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.5,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 5120,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 949,
+      "Unknown17": 95,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.95,
+      "Unknown21": 1.7,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 121,
+      "Name": "8HP_TC",
+      "Input": 64,
+      "InputFlags": 4112,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 3072,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 1501,
+      "Unknown17": 20,
       "Unknown18": 0,
       "Unknown19": 0,
       "Unknown20": 0.5,
@@ -7455,6 +7565,13 @@
           "ScriptIndex": 950,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "THAWK_DIVE",
+          "Index": 120,
+          "ScriptIndex": 950,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         }
       ]
     },
@@ -7524,6 +7641,13 @@
           "ScriptIndex": 950,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "THAWK_DIVE",
+          "Index": 120,
+          "ScriptIndex": 950,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         }
       ]
     },
@@ -7576,6 +7700,13 @@
 		{
           "Name": "SP_FLY_236",
           "Index": 110,
+          "ScriptIndex": 950,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "THAWK_DIVE",
+          "Index": 120,
           "ScriptIndex": 950,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -8241,12 +8372,12 @@
       "Unknown1": 0,
       "Cancels": [       
         {
-          "Name": "8HP",
-          "Index": 18,
+          "Name": "8HP_TC",
+          "Index": 121,
           "ScriptIndex": 626,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
 	  ]	
     },
     {
@@ -8314,6 +8445,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "THAWK_DIVE",
+          "Index": 120,
+          "ScriptIndex": 950,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        }
 	  ]
     },
     {
@@ -8649,42 +8787,42 @@
       "Cancels": [
 	  {
           "Name": "236P_8LP",
-          "Index": 114,
+          "Index": 113,
           "ScriptIndex": 956,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
           "Name": "236P_8LK",
-          "Index": 119,
+          "Index": 112,
           "ScriptIndex": 959,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
           "Name": "236P_8MP",
-          "Index": 115,
+          "Index": 114,
           "ScriptIndex": 957,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
           "Name": "236P_8MK",
-          "Index": 116,
+          "Index": 115,
           "ScriptIndex": 960,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
           "Name": "236P_9HP",
-          "Index": 117,
+          "Index": 116,
           "ScriptIndex": 958,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
           "Name": "236P_9HK",
-          "Index": 118,
+          "Index": 117,
           "ScriptIndex": 961,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -8700,6 +8838,20 @@
           "Name": "VSKILLAIR",
           "Index": 104,
           "ScriptIndex": 1199,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT1_ACTIVE_BOMB",
+          "Index": 108,
+          "ScriptIndex": 1500,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "THAWK_DIVE",
+          "Index": 120,
+          "ScriptIndex": 950,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -9325,14 +9477,79 @@
       ]
     },
     {
-      "Index": 0,
+      "Index": 43,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "236P_8LP",
+          "Index": 113,
+          "ScriptIndex": 956,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "236P_8LK",
+          "Index": 112,
+          "ScriptIndex": 959,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "236P_8MP",
+          "Index": 114,
+          "ScriptIndex": 957,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "236P_8MK",
+          "Index": 115,
+          "ScriptIndex": 960,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "236P_9HP",
+          "Index": 116,
+          "ScriptIndex": 958,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "236P_9HK",
+          "Index": 117,
+          "ScriptIndex": 961,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "82MK",
+          "Index": 105,
+          "ScriptIndex": 628,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SP_FLY_236",
+          "Index": 110,
+          "ScriptIndex": 950,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
-      "Index": 0,
+      "Index": 44,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "THAWK_DIVE",
+          "Index": 120,
+          "ScriptIndex": 950,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        }
+	  ]
     },
     {
       "Index": 45,
@@ -9355,9 +9572,17 @@
       ]
     },
     {
-      "Index": 0,
+      "Index": 46,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "AIR_VSKILL_DIVE_HIT",
+          "Index": 119,
+          "ScriptIndex": 1500,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
       "Index": 0,

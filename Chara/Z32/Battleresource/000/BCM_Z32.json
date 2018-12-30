@@ -8099,16 +8099,6 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 		{
-          "Name": "SLAP",
-          "Index": 132,
-          "ScriptIndex": 1500,
-          "CancelInts": {
-            "Unknown1": 0,
-            "Unknown2": 0
-          },
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-		{
           "Name": "ASYURASENKU_F",
           "Index": 68,
           "ScriptIndex": 981,
@@ -8152,6 +8142,16 @@
           "Name": "ASYURASENKU_B_UP_A",
           "Index": 123,
           "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SLAP",
+          "Index": 132,
+          "ScriptIndex": 1500,
           "CancelInts": {
             "Unknown1": 0,
             "Unknown2": 0

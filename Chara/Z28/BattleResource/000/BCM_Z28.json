@@ -4276,7 +4276,7 @@
       "RestrictionDistance": 0.0,
       "Unknown4": 0,
       "ProjectileLimit": 0,
-      "Unknown6": -32768,
+      "Unknown6": 8192,
       "Unknown7": 0,
       "Unknown8": 1,
       "Unknown9": 0,

@@ -3320,7 +3320,7 @@
       "InputFlags": 4626,
       "PositionRestriction": 3,
       "Unknown3": 0,
-      "RestrictionDistance": 0.0,
+      "RestrictionDistance": 1.4,
       "Unknown4": 0,
       "ProjectileLimit": 0,
       "Unknown6": 4610,
@@ -7382,6 +7382,81 @@
       "NormalOrVtrigger": 0,
       "Unknown28": 0
     },
+	{
+      "Offset": 0,
+      "Index": 134,
+      "Name": "AIR_VT_CA",
+      "Input": 64,
+      "InputFlags": 20512,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 8208,
+      "Unknown7": 128,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 900,
+      "MeterUsed": 900,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 262144001,
+      "InputMotionIndex": 15,
+      "ScriptIndex": 1482,
+      "Unknown17": 82,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.9,
+      "Unknown21": 1.3,
+      "Unknown22": 9,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 135,
+      "Name": "AIR_VT_CA_SC",
+      "Input": 64,
+      "InputFlags": 20512,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 8208,
+      "Unknown7": 128,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 900,
+      "MeterUsed": 900,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 262144001,
+      "InputMotionIndex": 21,
+      "ScriptIndex": 1482,
+      "Unknown17": 82,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.9,
+      "Unknown21": 1.3,
+      "Unknown22": 9,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	
   ],
   "CancelLists": [
     {
@@ -8334,6 +8409,26 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "AIR_VT_CA",
+          "Index": 134,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA_SC",
+          "Index": 135,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -8520,6 +8615,26 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "AIR_VT_CA",
+          "Index": 134,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA_SC",
+          "Index": 135,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -8689,6 +8804,26 @@
 		{
           "Name": "CA2_AIR",
           "Index": 127,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA",
+          "Index": 134,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA_SC",
+          "Index": 135,
           "ScriptIndex": 910,
           "CancelInts": {
             "Unknown1": 0,
@@ -10434,9 +10569,30 @@
       "Cancels": null
     },
     {
-      "Index": 0,
+      "Index": 38,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "AIR_VT_CA",
+          "Index": 134,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA_SC",
+          "Index": 135,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
       "Index": 39,
@@ -11260,6 +11416,26 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "AIR_VT_CA",
+          "Index": 134,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA_SC",
+          "Index": 135,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -11384,6 +11560,26 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "AIR_VT_CA",
+          "Index": 134,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA_SC",
+          "Index": 135,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -11501,6 +11697,26 @@
 		{
           "Name": "CA2_AIR",
           "Index": 127,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA",
+          "Index": 134,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA_SC",
+          "Index": 135,
           "ScriptIndex": 910,
           "CancelInts": {
             "Unknown1": 0,
@@ -11938,6 +12154,26 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "AIR_VT_CA",
+          "Index": 134,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA_SC",
+          "Index": 135,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -12104,6 +12340,26 @@
 		{
           "Name": "CA2_AIR",
           "Index": 127,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA",
+          "Index": 134,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA_SC",
+          "Index": 135,
           "ScriptIndex": 910,
           "CancelInts": {
             "Unknown1": 0,
@@ -12337,6 +12593,26 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "AIR_VT_CA",
+          "Index": 134,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA_SC",
+          "Index": 135,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -12440,6 +12716,26 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "AIR_VT_CA",
+          "Index": 134,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA_SC",
+          "Index": 135,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {
@@ -12536,6 +12832,26 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "AIR_VT_CA",
+          "Index": 134,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA_SC",
+          "Index": 135,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {
@@ -12565,6 +12881,26 @@
 		{
           "Name": "CA2_AIR",
           "Index": 127,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA",
+          "Index": 134,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA_SC",
+          "Index": 135,
           "ScriptIndex": 910,
           "CancelInts": {
             "Unknown1": 0,
@@ -12730,6 +13066,26 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "AIR_VT_CA",
+          "Index": 134,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA_SC",
+          "Index": 135,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -12760,6 +13116,26 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "AIR_VT_CA",
+          "Index": 134,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA_SC",
+          "Index": 135,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -12776,6 +13152,26 @@
 		{
           "Name": "CA2_AIR",
           "Index": 127,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA",
+          "Index": 134,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA_SC",
+          "Index": 135,
           "ScriptIndex": 910,
           "CancelInts": {
             "Unknown1": 0,

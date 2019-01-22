@@ -8602,9 +8602,24 @@
       "Cancels": null
     },
     {
-      "Index": 0,
+      "Index": 49,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "VS",
+          "Index": 97,
+          "ScriptIndex": 890,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT_VS",
+          "Index": 98,
+          "ScriptIndex": 891,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
       "Index": 50,

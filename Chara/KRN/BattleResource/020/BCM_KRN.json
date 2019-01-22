@@ -3436,7 +3436,7 @@
       "Unknown11": 0,
       "VtriggerRequirement": 0,
       "VtriggerUsed": 0,
-      "Unknown16": 1,
+      "Unknown16": 0,
       "InputMotionIndex": -1,
       "ScriptIndex": 749,
       "Unknown17": 91,
@@ -3510,7 +3510,7 @@
       "Unknown11": 0,
       "VtriggerRequirement": 0,
       "VtriggerUsed": 0,
-      "Unknown16": 0,
+      "Unknown16": 1,
       "InputMotionIndex": -1,
       "ScriptIndex": 751,
       "Unknown17": 89,
@@ -4464,7 +4464,7 @@
       "Unknown3": 0,
       "RestrictionDistance": 0.0,
       "ProjectileLimit": 0,
-      "Unknown6": 3074,
+      "Unknown6": 4610,
       "Unknown7": 0,
       "Unknown8": 1,
       "Unknown9": 0,
@@ -4777,6 +4777,191 @@
       "Unknown20": 1.7,
       "Unknown21": 1.5,
       "Unknown22": 9,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 83,
+      "Name": "VT1_DASH_FORWARD_KICK",
+      "Input": 900,
+      "InputFlags": 4626,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": -2147483648,
+      "Unknown6": 4,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 3276801,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 749,
+      "Unknown17": 91,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.0,
+      "Unknown21": 0.0,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 84,
+      "Name": "VT1_DASH_UP_PUNCH",
+      "Input": 113,
+      "InputFlags": 4625,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": -2147483648,
+      "Unknown6": 4,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -5,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 3276801,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 1599,
+      "Unknown17": 87,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.7,
+      "Unknown21": 1.8,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 85,
+      "Name": "VT1_UP_PUNCH_DASH_FROM_DASH",
+      "Input": 113,
+      "InputFlags": 4625,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": -2147483648,
+      "Unknown6": 4,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -10,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 3276801,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 748,
+      "Unknown17": 88,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.0,
+      "Unknown21": 1.5,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 86,
+      "Name": "VT1_GUREN_KUSABI2",
+      "Input": 898,
+      "InputFlags": 4625,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": -2147483648,
+      "Unknown6": 4,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -5,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 3276801,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 745,
+      "Unknown17": 90,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.9,
+      "Unknown21": 0.4,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+    {
+      "Offset": 0,
+      "Index": 87,
+      "Name": "VT1_GUREN_RESHU2",
+      "Input": 897,
+      "InputFlags": 4625,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": -2147483648,
+      "Unknown6": 4,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -5,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 3276801,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 751,
+      "Unknown17": 89,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.7,
+      "Unknown21": 1.8,
+      "Unknown22": 0,
       "Unknown23": 0,
       "Unknown24": 0,
       "Unknown25": 0,
@@ -6204,9 +6389,38 @@
       ]
     },
     {
-      "Index": 0,
+      "Index": 66,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "VT1_GUREN_KUSABI",
+          "Index": 47,
+          "ScriptIndex": 745,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT1_GUREN_HOSHO",
+          "Index": 43,
+          "ScriptIndex": 744,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT1_GUREN_RESHU",
+          "Index": 48,
+          "ScriptIndex": 751,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT1_UP_PUNCH_DASH_FROM_DASH",
+          "Index": 85,
+          "ScriptIndex": 748,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        }
+	  ]
     },
     {
       "Index": 67,
@@ -6459,6 +6673,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+        {
+          "Name": "VT1_DASH_FORWARD_KICK",
+          "Index": 83,
+          "ScriptIndex": 749,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 		{
           "Name": "VT1_START",
           "Index": 52,
@@ -6477,6 +6698,27 @@
           "Name": "V_CANCEL",
           "Index": 73,
           "ScriptIndex": 1499,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT1_GUREN_KUSABI",
+          "Index": 86,
+          "ScriptIndex": 745,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT1_GUREN_RESHU",
+          "Index": 87,
+          "ScriptIndex": 751,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT1_DASH_UP_PUNCH",
+          "Index": 84,
+          "ScriptIndex": 747,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -6494,6 +6736,13 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 		{
+          "Name": "VT1_DASH_FORWARD_KICK",
+          "Index": 83,
+          "ScriptIndex": 749,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
           "Name": "VT1_START",
           "Index": 52,
           "ScriptIndex": 740,
@@ -6511,6 +6760,27 @@
           "Name": "V_CANCEL",
           "Index": 73,
           "ScriptIndex": 1499,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT1_GUREN_KUSABI",
+          "Index": 86,
+          "ScriptIndex": 745,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT1_GUREN_RESHU",
+          "Index": 87,
+          "ScriptIndex": 751,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT1_DASH_UP_PUNCH",
+          "Index": 84,
+          "ScriptIndex": 747,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -6542,6 +6812,13 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 		{
+          "Name": "VT1_DASH_FORWARD_KICK",
+          "Index": 83,
+          "ScriptIndex": 749,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
           "Name": "VT1_START",
           "Index": 52,
           "ScriptIndex": 740,
@@ -6562,6 +6839,27 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT1_GUREN_KUSABI",
+          "Index": 86,
+          "ScriptIndex": 745,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT1_GUREN_RESHU",
+          "Index": 87,
+          "ScriptIndex": 751,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT1_DASH_UP_PUNCH",
+          "Index": 84,
+          "ScriptIndex": 747,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -6574,7 +6872,56 @@
           "ScriptIndex": 910,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "VT1_DASH_FORWARD_KICK",
+          "Index": 83,
+          "ScriptIndex": 749,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT1_START",
+          "Index": 52,
+          "ScriptIndex": 740,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT2_START",
+          "Index": 55,
+          "ScriptIndex": 770,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_CANCEL",
+          "Index": 73,
+          "ScriptIndex": 1499,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT1_GUREN_KUSABI",
+          "Index": 86,
+          "ScriptIndex": 745,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT1_GUREN_RESHU",
+          "Index": 87,
+          "ScriptIndex": 751,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT1_DASH_UP_PUNCH",
+          "Index": 84,
+          "ScriptIndex": 747,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {

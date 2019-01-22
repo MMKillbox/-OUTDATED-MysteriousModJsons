@@ -6994,6 +6994,80 @@
       "NormalOrVtrigger": 1,
       "Unknown28": 0
     },
+	{
+      "Offset": 0,
+      "Index": 122,
+      "Name": "VT1_ACTIVE_MOVE",
+      "Input": 576,
+      "InputFlags": 4128,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 8192,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 1,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 1592,
+      "Unknown17": 110,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.0,
+      "Unknown21": 0.0,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 2,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 123,
+      "Name": "CA_AIR",
+      "Input": 112,
+      "InputFlags": 20496,
+      "PositionRestriction": 3,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.4,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 16,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 900,
+      "MeterUsed": 900,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": 12,
+      "ScriptIndex": 1498,
+      "Unknown17": 86,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.75,
+      "Unknown21": 1.4,
+      "Unknown22": 10,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
   ],
   "CancelLists": [
     {
@@ -7350,6 +7424,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT1_ACTIVE_MOVE",
+          "Index": 122,
+          "ScriptIndex": 1500,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "CA",
           "Index": 81,
@@ -7368,6 +7449,13 @@
           "Name": "VT1_V_SKILL",
           "Index": 83,
           "ScriptIndex": 773,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT1_ACTIVE_MOVE",
+          "Index": 122,
+          "ScriptIndex": 1500,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -7572,7 +7660,14 @@
           "ScriptIndex": 950,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "CA1_AIR",
+          "Index": 123,
+          "ScriptIndex": 626,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -7648,7 +7743,14 @@
           "ScriptIndex": 950,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "CA1_AIR",
+          "Index": 123,
+          "ScriptIndex": 626,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -7710,7 +7812,14 @@
           "ScriptIndex": 950,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "CA1_AIR",
+          "Index": 123,
+          "ScriptIndex": 626,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -7966,6 +8075,13 @@
           "Name": "VT_SOTOJA_EX",
           "Index": 76,
           "ScriptIndex": 758,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT1_ACTIVE_MOVE",
+          "Index": 122,
+          "ScriptIndex": 1500,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -8255,6 +8371,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT1_ACTIVE_MOVE",
+          "Index": 122,
+          "ScriptIndex": 1500,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "CA",
           "Index": 81,
@@ -8296,6 +8419,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT1_ACTIVE_MOVE",
+          "Index": 122,
+          "ScriptIndex": 1500,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "CA",
           "Index": 81,
@@ -8314,6 +8444,13 @@
           "Name": "V_SKILL",
           "Index": 82,
           "ScriptIndex": 895,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT1_ACTIVE_MOVE",
+          "Index": 122,
+          "ScriptIndex": 1500,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -8364,7 +8501,14 @@
           "ScriptIndex": 1199,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "CA1_AIR",
+          "Index": 123,
+          "ScriptIndex": 626,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {
@@ -8374,6 +8518,13 @@
         {
           "Name": "8HP_TC",
           "Index": 121,
+          "ScriptIndex": 626,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA1_AIR",
+          "Index": 123,
           "ScriptIndex": 626,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -8451,7 +8602,14 @@
           "ScriptIndex": 950,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "CA1_AIR",
+          "Index": 123,
+          "ScriptIndex": 626,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {
@@ -8679,6 +8837,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT1_ACTIVE_MOVE",
+          "Index": 122,
+          "ScriptIndex": 1500,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "CA",
           "Index": 81,
@@ -8778,7 +8943,14 @@
           "ScriptIndex": 954,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "CA1_AIR",
+          "Index": 123,
+          "ScriptIndex": 626,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {
@@ -8852,6 +9024,13 @@
           "Name": "THAWK_DIVE",
           "Index": 120,
           "ScriptIndex": 950,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA1_AIR",
+          "Index": 123,
+          "ScriptIndex": 626,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -9113,6 +9292,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT1_ACTIVE_MOVE",
+          "Index": 122,
+          "ScriptIndex": 1500,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "CA",
           "Index": 81,
@@ -9155,6 +9341,13 @@
       "Unknown1": 0,
       "Cancels": [
         {
+          "Name": "VT1_ACTIVE_MOVE",
+          "Index": 122,
+          "ScriptIndex": 1500,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
           "Name": "CA",
           "Index": 81,
           "ScriptIndex": 1200,
@@ -9172,6 +9365,13 @@
           "Name": "V_CANCEL_G",
           "Index": 103,
           "ScriptIndex": 1499,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT1_ACTIVE_MOVE",
+          "Index": 122,
+          "ScriptIndex": 1500,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -9221,7 +9421,14 @@
           "ScriptIndex": 950,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "CA1_AIR",
+          "Index": 123,
+          "ScriptIndex": 626,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {
@@ -9229,6 +9436,13 @@
       "Unknown1": 0,
       "Cancels": [
         {
+          "Name": "VT1_ACTIVE_MOVE",
+          "Index": 122,
+          "ScriptIndex": 1500,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
           "Name": "CA",
           "Index": 81,
           "ScriptIndex": 1200,
@@ -9246,6 +9460,13 @@
           "Name": "V_CANCEL_G",
           "Index": 103,
           "ScriptIndex": 1499,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT1_ACTIVE_MOVE",
+          "Index": 122,
+          "ScriptIndex": 1500,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -9536,6 +9757,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "CA1_AIR",
+          "Index": 123,
+          "ScriptIndex": 626,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {
@@ -9548,7 +9776,14 @@
           "ScriptIndex": 950,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "CA1_AIR",
+          "Index": 123,
+          "ScriptIndex": 626,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {
@@ -9556,19 +9791,47 @@
       "Unknown1": 0,
       "Cancels": [
         {
-          "Name": "C_V_TRIGGER_2",
-          "Index": 87,
-          "ScriptIndex": 766,
+          "Name": "V_CANCEL_G",
+          "Index": 103,
+          "ScriptIndex": 1499,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
-		        {
+		{
+          "Name": "VT1_ACTIVE_MOVE",
+          "Index": 122,
+          "ScriptIndex": 1500,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA",
+          "Index": 81,
+          "ScriptIndex": 1200,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+				        {
+          "Name": "CA_START_2",
+          "Index": 107,
+          "ScriptIndex": 1200,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
           "Name": "C_V_TRIGGER",
           "Index": 85,
           "ScriptIndex": 741,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+        {
+          "Name": "C_V_TRIGGER_2",
+          "Index": 87,
+          "ScriptIndex": 766,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        }
       ]
     },
     {
@@ -9582,12 +9845,27 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "CA1_AIR",
+          "Index": 123,
+          "ScriptIndex": 626,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {
-      "Index": 0,
+      "Index": 47,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "CA1_AIR",
+          "Index": 123,
+          "ScriptIndex": 626,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
       "Index": 0,
@@ -10037,6 +10315,13 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
+          "Name": "VT1_ACTIVE_MOVE",
+          "Index": 122,
+          "ScriptIndex": 1500,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
           "Name": "CA",
           "Index": 81,
           "ScriptIndex": 1200,
@@ -10323,6 +10608,13 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
+          "Name": "VT1_ACTIVE_MOVE",
+          "Index": 122,
+          "ScriptIndex": 1500,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
           "Name": "CA",
           "Index": 81,
           "ScriptIndex": 1200,
@@ -10605,6 +10897,13 @@
           "Name": "VT_SOTOJA_EX_C",
           "Index": 80,
           "ScriptIndex": 758,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT1_ACTIVE_MOVE",
+          "Index": 122,
+          "ScriptIndex": 1500,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -10894,6 +11193,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT1_ACTIVE_MOVE",
+          "Index": 122,
+          "ScriptIndex": 1500,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "CA",
           "Index": 81,
@@ -11180,6 +11486,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT1_ACTIVE_MOVE",
+          "Index": 122,
+          "ScriptIndex": 1500,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "CA",
           "Index": 81,
@@ -11463,6 +11776,13 @@
           "Name": "VT_SOTOJA_EX_C",
           "Index": 80,
           "ScriptIndex": 758,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT1_ACTIVE_MOVE",
+          "Index": 122,
+          "ScriptIndex": 1500,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },

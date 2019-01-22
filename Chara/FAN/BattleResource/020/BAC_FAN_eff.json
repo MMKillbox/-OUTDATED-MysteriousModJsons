@@ -24290,8 +24290,8 @@
     {
       "Index": 16,
       "HIT_STAND": {
-        "Type": 1,
-        "Index": 1,
+        "Type": 3,
+        "Index": 210,
         "DamageType": 1069,
         "Unused1": 0,
         "NumberOfType1": 3,
@@ -24355,8 +24355,8 @@
         ]
       },
       "HIT_CROUCH": {
-        "Type": 1,
-        "Index": 1,
+        "Type": 3,
+        "Index": 210,
         "DamageType": 1069,
         "Unused1": 0,
         "NumberOfType1": 3,
@@ -24421,7 +24421,7 @@
       },
       "HIT_AIR": {
         "Type": 3,
-        "Index": 1,
+        "Index": 210,
         "DamageType": 1069,
         "Unused1": 0,
         "NumberOfType1": 3,
@@ -24880,8 +24880,8 @@
         ]
       },
       "COUNTERHIT_STAND": {
-        "Type": 1,
-        "Index": 1,
+        "Type": 3,
+        "Index": 210,
         "DamageType": 1069,
         "Unused1": 0,
         "NumberOfType1": 3,
@@ -24945,8 +24945,8 @@
         ]
       },
       "COUNTERHIT_CROUCH": {
-        "Type": 1,
-        "Index": 1,
+        "Type": 3,
+        "Index": 210,
         "DamageType": 1069,
         "Unused1": 0,
         "NumberOfType1": 3,
@@ -25011,7 +25011,7 @@
       },
       "COUNTERHIT_AIR": {
         "Type": 3,
-        "Index": 1,
+        "Index": 210,
         "DamageType": 1069,
         "Unused1": 0,
         "NumberOfType1": 3,
@@ -25075,8 +25075,8 @@
         ]
       },
       "COUNTERHIT_UNKNOWN": {
-        "Type": 1,
-        "Index": 1,
+        "Type": 3,
+        "Index": 210,
         "DamageType": 1069,
         "Unused1": 0,
         "NumberOfType1": 3,

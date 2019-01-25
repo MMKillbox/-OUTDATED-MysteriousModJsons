@@ -9653,9 +9653,24 @@
 	  ]	
     },
     {
-      "Index": 0,
+      "Index": 36,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "CLAW_VT_A",
+          "Index": 90,
+          "ScriptIndex": 852,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAND_VT_A",
+          "Index": 91,
+          "ScriptIndex": 856,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        }
+	  ]
     },
     {
       "Index": 0,
@@ -9968,6 +9983,20 @@
           "ScriptIndex": 932,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CLAW_VT_A",
+          "Index": 90,
+          "ScriptIndex": 852,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAND_VT_A",
+          "Index": 91,
+          "ScriptIndex": 856,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         }
       ]
     },
@@ -10000,6 +10029,20 @@
           "Name": "IZUNA_EX_B",
           "Index": 43,
           "ScriptIndex": 934,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CLAW_VT_A",
+          "Index": 90,
+          "ScriptIndex": 852,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAND_VT_A",
+          "Index": 91,
+          "ScriptIndex": 856,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         }

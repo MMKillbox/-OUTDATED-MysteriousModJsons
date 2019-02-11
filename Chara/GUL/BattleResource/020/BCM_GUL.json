@@ -5372,7 +5372,7 @@
       "Unknown3": 0,
       "RestrictionDistance": 0.0,
       "Unknown4": 0,
-      "ProjectileLimit": -2147483647,
+      "ProjectileLimit": -2147483646,
       "Unknown6": 16,
       "Unknown7": 0,
       "Unknown8": 1,
@@ -5446,7 +5446,7 @@
       "Unknown3": 0,
       "RestrictionDistance": 0.0,
       "Unknown4": 0,
-      "ProjectileLimit": -2147483647,
+      "ProjectileLimit": -2147483646,
       "Unknown6": 16,
       "Unknown7": 0,
       "Unknown8": 1,
@@ -9053,9 +9053,17 @@
       "Cancels": null
     },
     {
-      "Index": 0,
+      "Index": 63,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "VT_VS",
+          "Index": 98,
+          "ScriptIndex": 891,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
       "Index": 64,
@@ -9303,7 +9311,14 @@
           "ScriptIndex": 767,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "VT_VS",
+          "Index": 98,
+          "ScriptIndex": 891,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -9316,7 +9331,14 @@
           "ScriptIndex": 768,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "VT_VS",
+          "Index": 98,
+          "ScriptIndex": 891,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -9356,7 +9378,14 @@
           "ScriptIndex": 752,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "VT_VS",
+          "Index": 98,
+          "ScriptIndex": 891,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -9383,7 +9412,14 @@
           "ScriptIndex": 756,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "VT_VS",
+          "Index": 98,
+          "ScriptIndex": 891,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -9410,7 +9446,14 @@
           "ScriptIndex": 760,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "VT_VS",
+          "Index": 98,
+          "ScriptIndex": 891,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -9437,7 +9480,14 @@
           "ScriptIndex": 764,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "VT_VS",
+          "Index": 98,
+          "ScriptIndex": 891,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {

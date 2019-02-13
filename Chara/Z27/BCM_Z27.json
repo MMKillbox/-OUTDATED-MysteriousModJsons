@@ -7190,20 +7190,6 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "CA",
-          "Index": 49,
-          "ScriptIndex": 1202,
-          "CancelInts": null,
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-		{
-          "Name": "CA2",
-          "Index": 127,
-          "ScriptIndex": 1202,
-          "CancelInts": null,
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-        {
           "Name": "V_SKILL",
           "Index": 51,
           "ScriptIndex": 890,
@@ -7361,6 +7347,20 @@
           "Name": "VT2_ACTIVE_MOVE",
           "Index": 124,
           "ScriptIndex": 1501,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		 {
+          "Name": "CA",
+          "Index": 49,
+          "ScriptIndex": 1202,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA2",
+          "Index": 127,
+          "ScriptIndex": 1202,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -7676,20 +7676,6 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "CA",
-          "Index": 49,
-          "ScriptIndex": 1202,
-          "CancelInts": null,
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-		{
-          "Name": "CA2",
-          "Index": 127,
-          "ScriptIndex": 1202,
-          "CancelInts": null,
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-        {
           "Name": "Thouder",
           "Index": 59,
           "ScriptIndex": 931,
@@ -7756,6 +7742,20 @@
           "Name": "VT2 START",
           "Index": 69,
           "ScriptIndex": 740,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		 {
+          "Name": "CA",
+          "Index": 49,
+          "ScriptIndex": 1202,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA2",
+          "Index": 127,
+          "ScriptIndex": 1202,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -7927,20 +7927,6 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "CA",
-          "Index": 49,
-          "ScriptIndex": 1202,
-          "CancelInts": null,
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-		{
-          "Name": "CA2",
-          "Index": 127,
-          "ScriptIndex": 1202,
-          "CancelInts": null,
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-        {
           "Name": "Thouder",
           "Index": 59,
           "ScriptIndex": 931,
@@ -7965,6 +7951,20 @@
           "Name": "EXThouder_VT1",
           "Index": 120,
           "ScriptIndex": 746,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		 {
+          "Name": "CA",
+          "Index": 49,
+          "ScriptIndex": 1202,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA2",
+          "Index": 127,
+          "ScriptIndex": 1202,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },

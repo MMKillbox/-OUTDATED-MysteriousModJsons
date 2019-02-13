@@ -5520,7 +5520,7 @@
       "Unknown3": 0,
       "RestrictionDistance": 0.0,
       "Unknown4": 0,
-      "ProjectileLimit": -2147483646,
+      "ProjectileLimit": -2147483643,
       "Unknown6": 32,
       "Unknown7": 0,
       "Unknown8": 1,
@@ -8417,6 +8417,13 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 		{
+          "Name": "VT_VS",
+          "Index": 98,
+          "ScriptIndex": 891,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
           "Name": "VCANCEL",
           "Index": 116,
           "ScriptIndex": 1499,
@@ -9555,7 +9562,14 @@
           "ScriptIndex": 792,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "VT_VS",
+          "Index": 98,
+          "ScriptIndex": 891,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -9589,7 +9603,7 @@
           "ScriptIndex": 798,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
       ]
     }
   ],

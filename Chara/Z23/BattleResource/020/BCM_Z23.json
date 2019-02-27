@@ -1701,6 +1701,118 @@
       ],
       "Name": null,
     },
+	{
+      "Index": 15,
+      "InputEntries": [
+        {
+          "InputParts": [
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Down, Back",
+              "Unknown1": 2,
+              "Unknown2": 4096,
+              "Unknown3": 2,
+              "Unknown4": 0,
+              "Unknown5": 0
+            }
+          ]
+        },
+        {
+          "InputParts": [
+            {
+              "Buffer": 8,
+              "InputType": "Normal",
+              "InputDirection": "Back",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Down, Back",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            }
+          ]
+        },
+        {
+          "InputParts": [
+            {
+              "Buffer": 8,
+              "InputType": "Normal",
+              "InputDirection": "Back",
+              "Unknown1": 1,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 8,
+              "InputType": "Normal",
+              "InputDirection": "Down",
+              "Unknown1": 1,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Back",
+              "Unknown1": 1,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            }
+          ]
+        },
+        {
+          "InputParts": [
+            {
+              "Buffer": 8,
+              "InputType": "Normal",
+              "InputDirection": "Back",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 8,
+              "InputType": "Normal",
+              "InputDirection": "Down",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Down, Back",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            }
+          ]
+        }
+      ],
+      "Name": "SOUL_L_THROW, SOUL_M_THROW, SOUL_H_THROW, SOUL_EX_THROW, SOUL_BOMB, "
+    },
 	],
   "Moves": [
     {
@@ -3501,7 +3613,7 @@
       "VtriggerRequirement": 0,
       "VtriggerUsed": 0,
       "Unknown16": 0,
-      "InputMotionIndex": 9,
+      "InputMotionIndex": 15,
       "ScriptIndex": 918,
       "Unknown17": 74,
       "Unknown18": 0,
@@ -3538,7 +3650,7 @@
       "VtriggerRequirement": 0,
       "VtriggerUsed": 0,
       "Unknown16": 0,
-      "InputMotionIndex": 9,
+      "InputMotionIndex": 15,
       "ScriptIndex": 919,
       "Unknown17": 75,
       "Unknown18": 0,
@@ -3575,7 +3687,7 @@
       "VtriggerRequirement": 0,
       "VtriggerUsed": 0,
       "Unknown16": 0,
-      "InputMotionIndex": 9,
+      "InputMotionIndex": 15,
       "ScriptIndex": 920,
       "Unknown17": 76,
       "Unknown18": 0,
@@ -3612,7 +3724,7 @@
       "VtriggerRequirement": 0,
       "VtriggerUsed": 0,
       "Unknown16": 0,
-      "InputMotionIndex": 9,
+      "InputMotionIndex": 15,
       "ScriptIndex": 921,
       "Unknown17": 84,
       "Unknown18": 0,
@@ -3760,7 +3872,7 @@
       "VtriggerRequirement": 0,
       "VtriggerUsed": 0,
       "Unknown16": 0,
-      "InputMotionIndex": 9,
+      "InputMotionIndex": 15,
       "ScriptIndex": 747,
       "Unknown17": 80,
       "Unknown18": 0,
@@ -5092,7 +5204,7 @@
       "VtriggerRequirement": 0,
       "VtriggerUsed": 0,
       "Unknown16": 0,
-      "InputMotionIndex": 9,
+      "InputMotionIndex": 15,
       "ScriptIndex": 748,
       "Unknown17": 80,
       "Unknown18": 0,

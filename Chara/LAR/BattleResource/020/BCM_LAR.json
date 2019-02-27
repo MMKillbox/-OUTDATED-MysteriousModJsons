@@ -3359,7 +3359,119 @@
         }
       ],
       "Name": "SYUKUMYO_G, SYUKUMYO_Y, "
-    }
+    },
+	{
+      "Index": 29,
+      "InputEntries": [
+        {
+          "InputParts": [
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Back",
+              "Unknown1": 2,
+              "Unknown2": 4096,
+              "Unknown3": 2,
+              "Unknown4": 0,
+              "Unknown5": 0
+            }
+          ]
+        },
+        {
+          "InputParts": [
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Down",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Back",
+              "Unknown1": 1,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            }
+          ]
+        },
+        {
+          "InputParts": [
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Down",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Down, Back",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Back",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            }
+          ]
+        },
+        {
+          "InputParts": [
+            {
+              "Buffer": 6,
+              "InputType": "Normal",
+              "InputDirection": "Down",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 6,
+              "InputType": "Normal",
+              "InputDirection": "Down, Back",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 6,
+              "InputType": "Normal",
+              "InputDirection": "Back",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            }
+          ]
+        }
+      ],
+      "Name": "SYUNPU_L, SYUNPU_M, SYUNPU_H, SYUNPU_EX, VT2_SYUNPU, AIR_SYUNPU_L, AIR_SYUNPU_M, AIR_SYUNPU_H, AIR_SYUNPU_EX, "
+    },
   ],
   "Moves": [
     {
@@ -6143,6 +6255,43 @@
       "NormalOrVtrigger": 0,
       "Unknown28": 0
     },
+	{
+      "Offset": 0,
+      "Index": 75,
+      "Name": "3HP",
+      "Input": 74,
+      "InputFlags": 4626,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+	  "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 516,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -20,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 1598,
+      "Unknown17": 0,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.0,
+      "Unknown21": 0.0,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
   ],
   "CancelLists": [
     {
@@ -6247,26 +6396,12 @@
           "CancelInts": null,
           "UnknownBytes": "AAUHAAAABwcFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
-        {
-          "Name": "THROW_N",
-          "Index": 18,
-          "ScriptIndex": 715,
+		{
+          "Name": "3HP",
+          "Index": 75,
+          "ScriptIndex": 600,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-        {
-          "Name": "THROW_F",
-          "Index": 19,
-          "ScriptIndex": 715,
-          "CancelInts": null,
-          "UnknownBytes": "AAUKAAAACgoFCgAAAAoAAAAAAAAFAAAAAAAAAAAAAAAAAAAA"
-        },
-        {
-          "Name": "THROW_B",
-          "Index": 20,
-          "ScriptIndex": 715,
-          "CancelInts": null,
-          "UnknownBytes": "AAUKAAAACgoFCgAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
           "Name": "GRIPATTACK_L",
@@ -6472,6 +6607,27 @@
           "ScriptIndex": 600,
           "CancelInts": null,
           "UnknownBytes": "AAUHAAAABwcFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "THROW_N",
+          "Index": 18,
+          "ScriptIndex": 715,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "THROW_F",
+          "Index": 19,
+          "ScriptIndex": 715,
+          "CancelInts": null,
+          "UnknownBytes": "AAUKAAAACgoFCgAAAAoAAAAAAAAFAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "THROW_B",
+          "Index": 20,
+          "ScriptIndex": 715,
+          "CancelInts": null,
+          "UnknownBytes": "AAUKAAAACgoFCgAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 		{
           "Name": "V_SKILL",

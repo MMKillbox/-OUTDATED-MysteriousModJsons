@@ -3507,7 +3507,7 @@
       "Unknown3": 0,
       "RestrictionDistance": 0.0,
       "Unknown4": 0,
-      "ProjectileLimit": 1,
+      "ProjectileLimit": 0,
       "Unknown6": 16392,
       "Unknown7": 0,
       "Unknown8": 1,
@@ -3544,7 +3544,7 @@
       "Unknown3": 0,
       "RestrictionDistance": 0.0,
       "Unknown4": 0,
-      "ProjectileLimit": 1,
+      "ProjectileLimit": 0,
       "Unknown6": 16388,
       "Unknown7": 0,
       "Unknown8": 1,
@@ -3581,7 +3581,7 @@
       "Unknown3": 0,
       "RestrictionDistance": 0.0,
       "Unknown4": 0,
-      "ProjectileLimit": 1,
+      "ProjectileLimit": 0,
       "Unknown6": 16388,
       "Unknown7": 0,
       "Unknown8": 1,
@@ -3618,7 +3618,7 @@
       "Unknown3": 0,
       "RestrictionDistance": 0.0,
       "Unknown4": 0,
-      "ProjectileLimit": 1,
+      "ProjectileLimit": 0,
       "Unknown6": 16392,
       "Unknown7": 0,
       "Unknown8": 1,
@@ -3655,7 +3655,7 @@
       "Unknown3": 0,
       "RestrictionDistance": 0.0,
       "Unknown4": 0,
-      "ProjectileLimit": 1,
+      "ProjectileLimit": 0,
       "Unknown6": 16392,
       "Unknown7": 0,
       "Unknown8": 1,
@@ -7568,6 +7568,81 @@
       "NormalOrVtrigger": 0,
       "Unknown28": 0
     },
+	
+	{
+      "Offset": 0,
+      "Index": 138,
+      "Name": "VT_HADO",
+      "Input": 112,
+      "InputFlags": 20496,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 1,
+      "Unknown6": 16388,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -5,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 3276801,
+      "InputMotionIndex": 6,
+      "ScriptIndex": 1573,
+      "Unknown17": 54,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.4,
+      "Unknown21": 1.4,
+      "Unknown22": 1,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+    {
+      "Offset": 0,
+      "Index": 139,
+      "Name": "VT_HADO_EX",
+      "Input": 112,
+      "InputFlags": 20528,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 16392,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 300,
+      "MeterUsed": 300,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 3276801,
+      "InputMotionIndex": 6,
+      "ScriptIndex": 1574,
+      "Unknown17": 74,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.0,
+      "Unknown21": 0.0,
+      "Unknown22": 1,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
   ],
   "CancelLists": [
     {
@@ -7727,6 +7802,26 @@
         {
           "Name": "HADO_EX",
           "Index": 28,
+          "ScriptIndex": 903,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAEBAAAAAAABAQAAAQEBAQEAAAABAQABAQABAQEAAAAFBQUA"
+        },
+		{
+          "Name": "VT_HADO",
+          "Index": 138,
+          "ScriptIndex": 900,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT_HADO_EX",
+          "Index": 139,
           "ScriptIndex": 903,
           "CancelInts": {
             "Unknown1": 0,
@@ -8430,6 +8525,26 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT_HADO",
+          "Index": 138,
+          "ScriptIndex": 900,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT_HADO_EX",
+          "Index": 139,
+          "ScriptIndex": 903,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAEBAAAAAAABAQAAAQEBAQEAAAABAQABAQABAQEAAAAFBQUA"
+        },
         {
           "Name": "ASYURASENKU_F_A",
           "Index": 72,
@@ -8968,6 +9083,26 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT_HADO",
+          "Index": 138,
+          "ScriptIndex": 900,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT_HADO_EX",
+          "Index": 139,
+          "ScriptIndex": 903,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAEBAAAAAAABAQAAAQEBAQEAAAABAQABAQABAQEAAAAFBQUA"
+        },
         {
           "Name": "SYAKUNETU_L",
           "Index": 33,
@@ -9393,6 +9528,26 @@
             "Unknown2": 0
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_HADO",
+          "Index": 138,
+          "ScriptIndex": 900,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT_HADO_EX",
+          "Index": 139,
+          "ScriptIndex": 903,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAEBAAAAAAABAQAAAQEBAQEAAAABAQABAQABAQEAAAAFBQUA"
         },
         {
           "Name": "SYAKUNETU_L",
@@ -10095,6 +10250,26 @@
             "Unknown2": 0
           },
           "UnknownBytes": "AAAAAAADAQAAAAAABQEAAAAAAAQBAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_HADO",
+          "Index": 138,
+          "ScriptIndex": 900,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT_HADO_EX",
+          "Index": 139,
+          "ScriptIndex": 903,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAEBAAAAAAABAQAAAQEBAQEAAAABAQABAQABAQEAAAAFBQUA"
         },
         {
           "Name": "SYAKUNETU_L",
@@ -13511,6 +13686,26 @@
           },
           "UnknownBytes": "AAAAAAADAQAAAAAABQEAAAAAAAQBAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT_HADO",
+          "Index": 138,
+          "ScriptIndex": 900,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT_HADO_EX",
+          "Index": 139,
+          "ScriptIndex": 903,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAEBAAAAAAABAQAAAQEBAQEAAAABAQABAQABAQEAAAAFBQUA"
+        },
         {
           "Name": "SYAKUNETU_L",
           "Index": 33,
@@ -13910,6 +14105,26 @@
             "Unknown2": 0
           },
           "UnknownBytes": "AAAAAAADAQAAAAAABQEAAAAAAAQBAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_HADO",
+          "Index": 138,
+          "ScriptIndex": 900,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT_HADO_EX",
+          "Index": 139,
+          "ScriptIndex": 903,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAEBAAAAAAABAQAAAQEBAQEAAAABAQABAQABAQEAAAAFBQUA"
         },
         {
           "Name": "SYAKUNETU_L",

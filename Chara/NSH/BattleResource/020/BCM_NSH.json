@@ -1317,7 +1317,7 @@
           ]
         }
       ],
-      "Name": "SONICSCYTHE_L, SONICSCYTHE_M, SONICSCYTHE_H, SONICSCYTHE_EX, "
+      "Name": "SONICSCYTHE_L, SONICSCYTHE_M, SONICSCYTHE_H, SONICSCYTHE_MK+HK_EX, "
     },
     {
       "Index": 12,
@@ -4132,8 +4132,8 @@
     {
       "Offset": 0,
       "Index": 54,
-      "Name": "SONICSCYTHE_EX",
-      "Input": 896,
+      "Name": "SONICSCYTHE_MK+HK_EX",
+      "Input": 768,
       "InputFlags": 20528,
       "PositionRestriction": 0,
       "Unknown3": 0,
@@ -5610,6 +5610,80 @@
       "NormalOrVtrigger": 0,
       "Unknown28": 0
     },
+	{
+      "Offset": 0,
+      "Index": 94,
+      "Name": "SONICSCYTHE_LK+MK_EX",
+      "Input": 384,
+      "InputFlags": 20528,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 8,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 300,
+      "MeterUsed": 300,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": 11,
+      "ScriptIndex": 1583,
+      "Unknown17": 84,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.4,
+      "Unknown21": 1.4,
+      "Unknown22": 2,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 95,
+      "Name": "SONICSCYTHE_LK+HK_EX",
+      "Input": 640,
+      "InputFlags": 20528,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 8,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 300,
+      "MeterUsed": 300,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": 11,
+      "ScriptIndex": 1584,
+      "Unknown17": 84,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.4,
+      "Unknown21": 1.4,
+      "Unknown22": 2,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
   ],
   "CancelLists": [
     {
@@ -5847,8 +5921,22 @@
           "CancelInts": null,
           "UnknownBytes": "AAQFCgAGAAABAAgACAECAAAKCgAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "SONICSCYTHE_LK+MK_EX",
+          "Index": 94,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAQEFAAAAAYAAAQAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SONICSCYTHE_LK+HK_EX",
+          "Index": 95,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAQEFAAAAAYAAAQAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
-          "Name": "SONICSCYTHE_EX",
+          "Name": "SONICSCYTHE_MK+HK_EX",
           "Index": 54,
           "ScriptIndex": 947,
           "CancelInts": null,
@@ -6361,8 +6449,22 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "SONICSCYTHE_LK+MK_EX",
+          "Index": 94,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAQEFAAAAAYAAAQAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SONICSCYTHE_LK+HK_EX",
+          "Index": 95,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAQEFAAAAAYAAAQAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
-          "Name": "SONICSCYTHE_EX",
+          "Name": "SONICSCYTHE_MK+HK_EX",
           "Index": 54,
           "ScriptIndex": 947,
           "CancelInts": null,
@@ -6563,8 +6665,22 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "SONICSCYTHE_LK+MK_EX",
+          "Index": 94,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAQEFAAAAAYAAAQAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SONICSCYTHE_LK+HK_EX",
+          "Index": 95,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAQEFAAAAAYAAAQAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
-          "Name": "SONICSCYTHE_EX",
+          "Name": "SONICSCYTHE_MK+HK_EX",
           "Index": 54,
           "ScriptIndex": 947,
           "CancelInts": null,
@@ -6598,7 +6714,21 @@
       "Unknown1": 0,
       "Cancels": [
         {
-          "Name": "SONICSCYTHE_EX",
+          "Name": "SONICSCYTHE_LK+MK_EX",
+          "Index": 94,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAQEFAAAAAYAAAQAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SONICSCYTHE_LK+HK_EX",
+          "Index": 95,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAQEFAAAAAYAAAQAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SONICSCYTHE_MK+HK_EX",
           "Index": 54,
           "ScriptIndex": 947,
           "CancelInts": null,
@@ -6903,7 +7033,21 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "SONICSCYTHE_EX",
+          "Name": "SONICSCYTHE_LK+MK_EX",
+          "Index": 94,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAQEFAAAAAYAAAQAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SONICSCYTHE_LK+HK_EX",
+          "Index": 95,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAQEFAAAAAYAAAQAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SONICSCYTHE_MK+HK_EX",
           "Index": 54,
           "ScriptIndex": 947,
           "CancelInts": null,
@@ -7083,8 +7227,22 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "SONICSCYTHE_LK+MK_EX",
+          "Index": 94,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAQEFAAAAAYAAAQAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SONICSCYTHE_LK+HK_EX",
+          "Index": 95,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAQEFAAAAAYAAAQAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
-          "Name": "SONICSCYTHE_EX",
+          "Name": "SONICSCYTHE_MK+HK_EX",
           "Index": 54,
           "ScriptIndex": 947,
           "CancelInts": null,
@@ -7378,8 +7536,22 @@
           "CancelInts": null,
           "UnknownBytes": "AAgIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "SONICSCYTHE_LK+MK_EX",
+          "Index": 94,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAQEFAAAAAYAAAQAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SONICSCYTHE_LK+HK_EX",
+          "Index": 95,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAQEFAAAAAYAAAQAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
-          "Name": "SONICSCYTHE_EX",
+          "Name": "SONICSCYTHE_MK+HK_EX",
           "Index": 54,
           "ScriptIndex": 947,
           "CancelInts": null,
@@ -8378,8 +8550,22 @@
           "CancelInts": null,
           "UnknownBytes": "AAgIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "SONICSCYTHE_LK+MK_EX",
+          "Index": 94,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAQEFAAAAAYAAAQAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SONICSCYTHE_LK+HK_EX",
+          "Index": 95,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAQEFAAAAAYAAAQAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
-          "Name": "SONICSCYTHE_EX",
+          "Name": "SONICSCYTHE_MK+HK_EX",
           "Index": 54,
           "ScriptIndex": 947,
           "CancelInts": null,
@@ -8566,8 +8752,22 @@
           "CancelInts": null,
           "UnknownBytes": "AAgIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "SONICSCYTHE_LK+MK_EX",
+          "Index": 94,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAQEFAAAAAYAAAQAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SONICSCYTHE_LK+HK_EX",
+          "Index": 95,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAQEFAAAAAYAAAQAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
-          "Name": "SONICSCYTHE_EX",
+          "Name": "SONICSCYTHE_MK+HK_EX",
           "Index": 54,
           "ScriptIndex": 947,
           "CancelInts": null,
@@ -8761,8 +8961,22 @@
           "CancelInts": null,
           "UnknownBytes": "AAgIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "SONICSCYTHE_LK+MK_EX",
+          "Index": 94,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAQEFAAAAAYAAAQAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SONICSCYTHE_LK+HK_EX",
+          "Index": 95,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAQEFAAAAAYAAAQAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
-          "Name": "SONICSCYTHE_EX",
+          "Name": "SONICSCYTHE_MK+HK_EX",
           "Index": 54,
           "ScriptIndex": 947,
           "CancelInts": null,

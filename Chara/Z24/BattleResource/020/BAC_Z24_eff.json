@@ -924,7 +924,7 @@
               "NumberOfHits": 7,
               "HitType": 1,
               "JuggleLimit": 99,
-              "JuggleIncrease": 1,
+              "JuggleIncrease": 0,
               "Flag4": 0,
               "HitboxEffectIndex": 6,
               "Unknown10": 0,

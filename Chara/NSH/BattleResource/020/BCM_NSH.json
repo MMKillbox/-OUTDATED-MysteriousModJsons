@@ -5684,6 +5684,43 @@
       "NormalOrVtrigger": 0,
       "Unknown28": 0
     },
+	{
+      "Offset": 0,
+      "Index": 96,
+      "Name": "3HK",
+      "Input": 522,
+      "InputFlags": 4626,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 5122,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 1582,
+      "Unknown17": 50,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.1,
+      "Unknown21": 1.6,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
   ],
   "CancelLists": [
     {
@@ -5815,6 +5852,13 @@
           "ScriptIndex": 673,
           "CancelInts": null,
           "UnknownBytes": "AAADAAAABQIDAwAAAgMDAgMAAAAEAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "3HK",
+          "Index": 96,
+          "ScriptIndex": 670,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
           "Name": "MOONSULT_L",

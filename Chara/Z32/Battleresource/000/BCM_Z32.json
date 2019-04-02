@@ -7643,6 +7643,43 @@
       "NormalOrVtrigger": 0,
       "Unknown28": 0
     },
+	{
+      "Offset": 0,
+      "Index": 140,
+      "Name": "5MKCLOSE",
+      "Input": 256,
+      "InputFlags": 4112,
+      "PositionRestriction": 2,
+      "Unknown3": 0,
+      "RestrictionDistance": 1.1,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 4608,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 1570,
+      "Unknown17": 4,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.73,
+      "Unknown21": 1.55,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
   ],
   "CancelLists": [
     {
@@ -7682,6 +7719,16 @@
         {
           "Name": "5MK",
           "Index": 3,
+          "ScriptIndex": 604,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAABAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "5MKCLOSE",
+          "Index": 140,
           "ScriptIndex": 604,
           "CancelInts": {
             "Unknown1": 0,
@@ -8524,26 +8571,6 @@
             "Unknown2": 0
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-		{
-          "Name": "VT_HADO",
-          "Index": 138,
-          "ScriptIndex": 900,
-          "CancelInts": {
-            "Unknown1": 0,
-            "Unknown2": 0
-          },
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-        {
-          "Name": "VT_HADO_EX",
-          "Index": 139,
-          "ScriptIndex": 903,
-          "CancelInts": {
-            "Unknown1": 0,
-            "Unknown2": 0
-          },
-          "UnknownBytes": "AAEBAAAAAAABAQAAAQEBAQEAAAABAQABAQABAQEAAAAFBQUA"
         },
         {
           "Name": "ASYURASENKU_F_A",

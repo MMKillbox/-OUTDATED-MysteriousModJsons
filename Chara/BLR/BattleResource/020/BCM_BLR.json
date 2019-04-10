@@ -8,12 +8,12 @@
       "Unknown2": 0,
       "Unknown3": 0,
       "Flags": 12,
-      "ChargeIndex": 2,
+      "ChargeIndex": 1,
       "Unknown4": 0
     },
     {
       "Index": 1,
-      "ChargeDirection": 2,
+      "ChargeDirection": 6,
       "ChargeFrames": 35,
       "Unknown1": 1,
       "Unknown2": 0,

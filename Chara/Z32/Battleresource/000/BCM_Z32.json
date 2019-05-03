@@ -7592,8 +7592,8 @@
 	{
       "Offset": 0,
       "Index": 138,
-      "Name": "VT_HADO",
-      "Input": 112,
+      "Name": "VT_HADO_L",
+      "Input": 16,
       "InputFlags": 20496,
       "PositionRestriction": 0,
       "Unknown3": 0,
@@ -7612,8 +7612,8 @@
       "VtriggerUsed": 0,
       "Unknown16": 3276801,
       "InputMotionIndex": 6,
-      "ScriptIndex": 1573,
-      "Unknown17": 54,
+      "ScriptIndex": 1184,
+      "Unknown17": 1034,
       "Unknown18": 0,
       "Unknown19": 0,
       "Unknown20": 1.4,
@@ -7649,7 +7649,7 @@
       "VtriggerUsed": 0,
       "Unknown16": 3276801,
       "InputMotionIndex": 6,
-      "ScriptIndex": 1574,
+      "ScriptIndex": 1178,
       "Unknown17": 74,
       "Unknown18": 0,
       "Unknown19": 0,
@@ -7730,6 +7730,377 @@
       "Unknown20": 0.0,
       "Unknown21": 0.0,
       "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	
+	{
+      "Offset": 0,
+      "Index": 142,
+      "Name": "V_TATSUMAKI_L",
+      "Input": 128,
+      "InputFlags": 20496,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 260,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -20,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 1,
+      "InputMotionIndex": 11,
+      "ScriptIndex": 1189,
+      "Unknown17": 1030,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.1,
+      "Unknown21": 1.25,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+    {
+      "Offset": 0,
+      "Index": 143,
+      "Name": "V_TATSUMAKI_M",
+      "Input": 256,
+      "InputFlags": 20496,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 516,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -20,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 1,
+      "InputMotionIndex": 11,
+      "ScriptIndex": 1188,
+      "Unknown17": 1031,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.1,
+      "Unknown21": 1.25,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+    {
+      "Offset": 0,
+      "Index": 144,
+      "Name": "V_TATSUMAKI_H",
+      "Input": 512,
+      "InputFlags": 20496,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 1028,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -20,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 1,
+      "InputMotionIndex": 11,
+      "ScriptIndex": 1187,
+      "Unknown17": 1032,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.1,
+      "Unknown21": 1.25,
+      "Unknown22": 1,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+    {
+      "Offset": 0,
+      "Index": 145,
+      "Name": "V_TATSUMAKI_EX",
+      "Input": 896,
+      "InputFlags": 20528,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 8,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 300,
+      "MeterUsed": 300,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 1,
+      "InputMotionIndex": 11,
+      "ScriptIndex": 1185,
+      "Unknown17": 1033,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.1,
+      "Unknown21": 1.25,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 146,
+      "Name": "VT_HADO_M",
+      "Input": 32,
+      "InputFlags": 20496,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 1,
+      "Unknown6": 16388,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -5,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 3276801,
+      "InputMotionIndex": 6,
+      "ScriptIndex": 1183,
+      "Unknown17": 1035,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.4,
+      "Unknown21": 1.4,
+      "Unknown22": 1,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 147,
+      "Name": "VT_HADO_H",
+      "Input": 64,
+      "InputFlags": 20496,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 1,
+      "Unknown6": 16388,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -5,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 3276801,
+      "InputMotionIndex": 6,
+      "ScriptIndex": 1182,
+      "Unknown17": 1036,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.4,
+      "Unknown21": 1.4,
+      "Unknown22": 1,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 148,
+      "Name": "V_AIR_TATSUMAKI_L",
+      "Input": 128,
+      "InputFlags": 20496,
+      "PositionRestriction": 7,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 4,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -10,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 1,
+      "InputMotionIndex": 11,
+      "ScriptIndex": 1179,
+      "Unknown17": 1037,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.1,
+      "Unknown21": 1.25,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 149,
+      "Name": "V_AIR_TATSUMAKI_M",
+      "Input": 256,
+      "InputFlags": 20496,
+      "PositionRestriction": 7,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 4,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -10,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 1,
+      "InputMotionIndex": 11,
+      "ScriptIndex": 1180,
+      "Unknown17": 1038,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.1,
+      "Unknown21": 1.25,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 150,
+      "Name": "V_AIR_TATSUMAKI_H",
+      "Input": 512,
+      "InputFlags": 20496,
+      "PositionRestriction": 7,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 4,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -10,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 1,
+      "InputMotionIndex": 11,
+      "ScriptIndex": 1181,
+      "Unknown17": 1039,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.1,
+      "Unknown21": 1.25,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 151,
+      "Name": "VT_SHOURYU_EX",
+      "Input": 112,
+      "InputFlags": 20528,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 8,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 300,
+      "MeterUsed": 300,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 1,
+      "InputMotionIndex": 9,
+      "ScriptIndex": 1176,
+      "Unknown17": 77,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.75,
+      "Unknown21": 1.0,
+      "Unknown22": 10,
       "Unknown23": 0,
       "Unknown24": 0,
       "Unknown25": 0,
@@ -7914,8 +8285,28 @@
           "UnknownBytes": "AAEBAAAAAAABAQAAAQEBAQEAAAABAQABAQABAQEAAAAFBQUA"
         },
 		{
-          "Name": "VT_HADO",
+          "Name": "VT_HADO_L",
           "Index": 138,
+          "ScriptIndex": 900,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_HADO_M",
+          "Index": 146,
+          "ScriptIndex": 900,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_HADO_H",
+          "Index": 147,
           "ScriptIndex": 900,
           "CancelInts": {
             "Unknown1": 0,
@@ -8013,6 +8404,16 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT_SHOURYU_EX",
+          "Index": 151,
+          "ScriptIndex": 958,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "KUREKI_L",
           "Index": 41,
@@ -8046,6 +8447,46 @@
         {
           "Name": "KUREKI_EX",
           "Index": 44,
+          "ScriptIndex": 978,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_TATSUMAKI_L",
+          "Index": 142,
+          "ScriptIndex": 975,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAYFBQQEBQACBQMDBAMCCAgEBQEBAAAAAAAAAAAAAAAFAAAA"
+        },
+        {
+          "Name": "V_TATSUMAKI_M",
+          "Index": 143,
+          "ScriptIndex": 976,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAgIAAgIAAAMAAAIEAwMDAwQAAAAFAgAH"
+        },
+        {
+          "Name": "V_TATSUMAKI_H",
+          "Index": 144,
+          "ScriptIndex": 977,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAgEAAgAAAAUAAAIEAwMDAwQFBQUABQUH"
+        },
+        {
+          "Name": "V_TATSUMAKI_EX",
+          "Index": 145,
           "ScriptIndex": 978,
           "CancelInts": {
             "Unknown1": 0,
@@ -9168,8 +9609,28 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 		{
-          "Name": "VT_HADO",
+          "Name": "VT_HADO_L",
           "Index": 138,
+          "ScriptIndex": 900,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_HADO_M",
+          "Index": 146,
+          "ScriptIndex": 900,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_HADO_H",
+          "Index": 147,
           "ScriptIndex": 900,
           "CancelInts": {
             "Unknown1": 0,
@@ -9267,6 +9728,16 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT_SHOURYU_EX",
+          "Index": 151,
+          "ScriptIndex": 958,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "KUREKI_L",
           "Index": 41,
@@ -9300,6 +9771,46 @@
         {
           "Name": "KUREKI_EX",
           "Index": 44,
+          "ScriptIndex": 978,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_TATSUMAKI_L",
+          "Index": 142,
+          "ScriptIndex": 975,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAYFBQQEBQACBQMDBAMCCAgEBQEBAAAAAAAAAAAAAAAFAAAA"
+        },
+        {
+          "Name": "V_TATSUMAKI_M",
+          "Index": 143,
+          "ScriptIndex": 976,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAgIAAgIAAAMAAAIEAwMDAwQAAAAFAgAH"
+        },
+        {
+          "Name": "V_TATSUMAKI_H",
+          "Index": 144,
+          "ScriptIndex": 977,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAgEAAgAAAAUAAAIEAwMDAwQFBQUABQUH"
+        },
+        {
+          "Name": "V_TATSUMAKI_EX",
+          "Index": 145,
           "ScriptIndex": 978,
           "CancelInts": {
             "Unknown1": 0,
@@ -9614,8 +10125,28 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 		{
-          "Name": "VT_HADO",
+          "Name": "VT_HADO_L",
           "Index": 138,
+          "ScriptIndex": 900,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_HADO_M",
+          "Index": 146,
+          "ScriptIndex": 900,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_HADO_H",
+          "Index": 147,
           "ScriptIndex": 900,
           "CancelInts": {
             "Unknown1": 0,
@@ -9713,6 +10244,16 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT_SHOURYU_EX",
+          "Index": 151,
+          "ScriptIndex": 958,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "KUREKI_L",
           "Index": 41,
@@ -9746,6 +10287,46 @@
         {
           "Name": "KUREKI_EX",
           "Index": 44,
+          "ScriptIndex": 978,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_TATSUMAKI_L",
+          "Index": 142,
+          "ScriptIndex": 975,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAYFBQQEBQACBQMDBAMCCAgEBQEBAAAAAAAAAAAAAAAFAAAA"
+        },
+        {
+          "Name": "V_TATSUMAKI_M",
+          "Index": 143,
+          "ScriptIndex": 976,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAgIAAgIAAAMAAAIEAwMDAwQAAAAFAgAH"
+        },
+        {
+          "Name": "V_TATSUMAKI_H",
+          "Index": 144,
+          "ScriptIndex": 977,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAgEAAgAAAAUAAAIEAwMDAwQFBQUABQUH"
+        },
+        {
+          "Name": "V_TATSUMAKI_EX",
+          "Index": 145,
           "ScriptIndex": 978,
           "CancelInts": {
             "Unknown1": 0,
@@ -9995,6 +10576,16 @@
           "Index": 40,
           "ScriptIndex": 958,
           "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_SHOURYU_EX",
+          "Index": 151,
+          "ScriptIndex": 958,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
@@ -10347,8 +10938,28 @@
           "UnknownBytes": "AAAAAAADAQAAAAAABQEAAAAAAAQBAAAAAAAAAAAAAAAAAAAA"
         },
 		{
-          "Name": "VT_HADO",
+          "Name": "VT_HADO_L",
           "Index": 138,
+          "ScriptIndex": 900,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_HADO_M",
+          "Index": 146,
+          "ScriptIndex": 900,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_HADO_H",
+          "Index": 147,
           "ScriptIndex": 900,
           "CancelInts": {
             "Unknown1": 0,
@@ -10446,6 +11057,16 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT_SHOURYU_EX",
+          "Index": 151,
+          "ScriptIndex": 958,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "KUREKI_L",
           "Index": 41,
@@ -10479,6 +11100,46 @@
         {
           "Name": "KUREKI_EX",
           "Index": 44,
+          "ScriptIndex": 978,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_TATSUMAKI_L",
+          "Index": 142,
+          "ScriptIndex": 975,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAYFBQQEBQACBQMDBAMCCAgEBQEBAAAAAAAAAAAAAAAFAAAA"
+        },
+        {
+          "Name": "V_TATSUMAKI_M",
+          "Index": 143,
+          "ScriptIndex": 976,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAgIAAgIAAAMAAAIEAwMDAwQAAAAFAgAH"
+        },
+        {
+          "Name": "V_TATSUMAKI_H",
+          "Index": 144,
+          "ScriptIndex": 977,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAgEAAgAAAAUAAAIEAwMDAwQFBQUABQUH"
+        },
+        {
+          "Name": "V_TATSUMAKI_EX",
+          "Index": 145,
           "ScriptIndex": 978,
           "CancelInts": {
             "Unknown1": 0,
@@ -11648,9 +12309,97 @@
       "Cancels": null
     },
     {
-      "Index": 0,
+      "Index": 71,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "ASYURASENKU_F_A",
+          "Index": 72,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_F_UP_A",
+          "Index": 118,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "ASYURASENKU_B_A",
+          "Index": 74,
+          "ScriptIndex": 985,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_V_UP_A",
+          "Index": 121,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_B_UP_A",
+          "Index": 123,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT2_SP_C_A",
+          "Index": 86,
+          "ScriptIndex": 774,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA2_AIR",
+          "Index": 127,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA",
+          "Index": 133,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA_SC",
+          "Index": 134,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
       "Index": 72,
@@ -11666,14 +12415,163 @@
       ]
     },
     {
-      "Index": 0,
+      "Index": 73,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "CA2_AIR",
+          "Index": 127,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA",
+          "Index": 133,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA_SC",
+          "Index": 134,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
-      "Index": 0,
+      "Index": 74,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "ASYURASENKU_F_A",
+          "Index": 72,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_F_UP_A",
+          "Index": 118,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_F_D_A",
+          "Index": 119,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "ASYURASENKU_B_A",
+          "Index": 74,
+          "ScriptIndex": 985,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_V_UP_A",
+          "Index": 121,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_V_D_A",
+          "Index": 122,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_B_UP_A",
+          "Index": 123,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "ASYURASENKU_B_D_A",
+          "Index": 120,
+          "ScriptIndex": 984,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT2_SP_C_A",
+          "Index": 86,
+          "ScriptIndex": 774,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA2_AIR",
+          "Index": 127,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA",
+          "Index": 133,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_VT_CA_SC",
+          "Index": 134,
+          "ScriptIndex": 910,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+      ]
     },
     {
       "Index": 75,
@@ -11696,6 +12594,27 @@
         {
           "Name": "A_KUREKI_8MP_V",
           "Index": 58,
+          "ScriptIndex": 988,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_AIR_TATSUMAKI_L",
+          "Index": 148,
+          "ScriptIndex": 988,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_AIR_TATSUMAKI_M",
+          "Index": 149,
+          "ScriptIndex": 988,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_AIR_TATSUMAKI_H",
+          "Index": 150,
           "ScriptIndex": 988,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -11844,6 +12763,27 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "V_AIR_TATSUMAKI_L",
+          "Index": 148,
+          "ScriptIndex": 988,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_AIR_TATSUMAKI_M",
+          "Index": 149,
+          "ScriptIndex": 988,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_AIR_TATSUMAKI_H",
+          "Index": 150,
+          "ScriptIndex": 988,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "FA_KUREKI_EX_8MP",
           "Index": 66,
@@ -11985,6 +12925,27 @@
           "Name": "A_KUREKI_8MP_B",
           "Index": 59,
           "ScriptIndex": 1001,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_AIR_TATSUMAKI_L",
+          "Index": 148,
+          "ScriptIndex": 988,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_AIR_TATSUMAKI_M",
+          "Index": 149,
+          "ScriptIndex": 988,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_AIR_TATSUMAKI_H",
+          "Index": 150,
+          "ScriptIndex": 988,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -12628,6 +13589,27 @@
           "Name": "FA_KUREKI",
           "Index": 63,
           "ScriptIndex": 992,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_AIR_TATSUMAKI_L",
+          "Index": 148,
+          "ScriptIndex": 988,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_AIR_TATSUMAKI_M",
+          "Index": 149,
+          "ScriptIndex": 988,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_AIR_TATSUMAKI_H",
+          "Index": 150,
+          "ScriptIndex": 988,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -13320,6 +14302,16 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT_SHOURYU_EX",
+          "Index": 151,
+          "ScriptIndex": 958,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {
@@ -13452,6 +14444,27 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "V_AIR_TATSUMAKI_L",
+          "Index": 148,
+          "ScriptIndex": 988,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_AIR_TATSUMAKI_M",
+          "Index": 149,
+          "ScriptIndex": 988,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_AIR_TATSUMAKI_H",
+          "Index": 150,
+          "ScriptIndex": 988,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "A_KUREKI_EX",
           "Index": 60,
@@ -13499,6 +14512,27 @@
           "Name": "FA_KUREKI",
           "Index": 63,
           "ScriptIndex": 992,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_AIR_TATSUMAKI_L",
+          "Index": 148,
+          "ScriptIndex": 988,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_AIR_TATSUMAKI_M",
+          "Index": 149,
+          "ScriptIndex": 988,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_AIR_TATSUMAKI_H",
+          "Index": 150,
+          "ScriptIndex": 988,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -13782,8 +14816,28 @@
           "UnknownBytes": "AAAAAAADAQAAAAAABQEAAAAAAAQBAAAAAAAAAAAAAAAAAAAA"
         },
 		{
-          "Name": "VT_HADO",
+          "Name": "VT_HADO_L",
           "Index": 138,
+          "ScriptIndex": 900,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_HADO_M",
+          "Index": 146,
+          "ScriptIndex": 900,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_HADO_H",
+          "Index": 147,
           "ScriptIndex": 900,
           "CancelInts": {
             "Unknown1": 0,
@@ -13881,6 +14935,16 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT_SHOURYU_EX",
+          "Index": 151,
+          "ScriptIndex": 958,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "KUREKI_L",
           "Index": 41,
@@ -13914,6 +14978,46 @@
         {
           "Name": "KUREKI_EX",
           "Index": 44,
+          "ScriptIndex": 978,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_TATSUMAKI_L",
+          "Index": 142,
+          "ScriptIndex": 975,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAYFBQQEBQACBQMDBAMCCAgEBQEBAAAAAAAAAAAAAAAFAAAA"
+        },
+        {
+          "Name": "V_TATSUMAKI_M",
+          "Index": 143,
+          "ScriptIndex": 976,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAgIAAgIAAAMAAAIEAwMDAwQAAAAFAgAH"
+        },
+        {
+          "Name": "V_TATSUMAKI_H",
+          "Index": 144,
+          "ScriptIndex": 977,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAgEAAgAAAAUAAAIEAwMDAwQFBQUABQUH"
+        },
+        {
+          "Name": "V_TATSUMAKI_EX",
+          "Index": 145,
           "ScriptIndex": 978,
           "CancelInts": {
             "Unknown1": 0,
@@ -14202,8 +15306,28 @@
           "UnknownBytes": "AAAAAAADAQAAAAAABQEAAAAAAAQBAAAAAAAAAAAAAAAAAAAA"
         },
 		{
-          "Name": "VT_HADO",
+          "Name": "VT_HADO_L",
           "Index": 138,
+          "ScriptIndex": 900,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_HADO_M",
+          "Index": 146,
+          "ScriptIndex": 900,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_HADO_H",
+          "Index": 147,
           "ScriptIndex": 900,
           "CancelInts": {
             "Unknown1": 0,
@@ -14301,6 +15425,16 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT_SHOURYU_EX",
+          "Index": 151,
+          "ScriptIndex": 958,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "KUREKI_L",
           "Index": 41,
@@ -14334,6 +15468,46 @@
         {
           "Name": "KUREKI_EX",
           "Index": 44,
+          "ScriptIndex": 978,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_TATSUMAKI_L",
+          "Index": 142,
+          "ScriptIndex": 975,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAYFBQQEBQACBQMDBAMCCAgEBQEBAAAAAAAAAAAAAAAFAAAA"
+        },
+        {
+          "Name": "V_TATSUMAKI_M",
+          "Index": 143,
+          "ScriptIndex": 976,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAgIAAgIAAAMAAAIEAwMDAwQAAAAFAgAH"
+        },
+        {
+          "Name": "V_TATSUMAKI_H",
+          "Index": 144,
+          "ScriptIndex": 977,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAgEAAgAAAAUAAAIEAwMDAwQFBQUABQUH"
+        },
+        {
+          "Name": "V_TATSUMAKI_EX",
+          "Index": 145,
           "ScriptIndex": 978,
           "CancelInts": {
             "Unknown1": 0,

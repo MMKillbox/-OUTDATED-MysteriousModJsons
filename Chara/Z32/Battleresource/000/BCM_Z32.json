@@ -3319,7 +3319,7 @@
       "Unknown16": 0,
       "InputMotionIndex": -1,
       "ScriptIndex": 642,
-      "Unknown17": 52,
+      "Unknown17": 2121,
       "Unknown18": 0,
       "Unknown19": 0,
       "Unknown20": 0.65,
@@ -7315,7 +7315,7 @@
       "Unknown16": 65536001,
       "InputMotionIndex": -1,
       "ScriptIndex": 1192,
-      "Unknown17": 1017,
+      "Unknown17": 2019,
       "Unknown18": 0,
       "Unknown19": 0,
       "Unknown20": 0.0,
@@ -7352,7 +7352,7 @@
       "Unknown16": 65536001,
       "InputMotionIndex": -1,
       "ScriptIndex": 1191,
-      "Unknown17": 1017,
+      "Unknown17": 2019,
       "Unknown18": 0,
       "Unknown19": 0,
       "Unknown20": 0.0,
@@ -11810,6 +11810,16 @@
           "Index": 131,
           "ScriptIndex": 771,
           "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA2_PLACEHOLDER",
+          "Index": 117,
+          "ScriptIndex": 1200,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 		{

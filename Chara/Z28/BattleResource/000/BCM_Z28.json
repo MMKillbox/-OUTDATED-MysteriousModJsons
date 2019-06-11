@@ -5301,6 +5301,78 @@
       "NormalOrVtrigger": 0,
       "Unknown28": 0
     },
+	{
+      "Offset": 0,
+      "Index": 80,
+      "Name": "QCF_VCANCEL",
+      "Input": 288,
+      "InputFlags": 4128,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "ProjectileLimit": 0,
+      "Unknown6": 8192,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 300,
+      "VtriggerUsed": 300,
+      "Unknown16": 0,
+      "InputMotionIndex": 6,
+      "ScriptIndex": 1598,
+      "Unknown17": 1600,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.0,
+      "Unknown21": 0.0,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 81,
+      "Name": "QCF_VCANCEL_KK",
+      "Input": 288,
+      "InputFlags": 4128,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "ProjectileLimit": 0,
+      "Unknown6": 8192,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 300,
+      "VtriggerUsed": 300,
+      "Unknown16": 0,
+      "InputMotionIndex": 6,
+      "ScriptIndex": 1596,
+      "Unknown17": 1600,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.0,
+      "Unknown21": 0.0,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
   ],
   "CancelLists": [
     {
@@ -5653,6 +5725,13 @@
         {
           "Name": "CPU_FJUMP",
           "Index": 63,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
           "ScriptIndex": 802,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -6072,6 +6151,13 @@
           "ScriptIndex": 813,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         }
       ]
     },
@@ -6190,6 +6276,13 @@
           "ScriptIndex": 754,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         }
       ]
     },
@@ -6274,6 +6367,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "V_REVERSAL",
           "Index": 46,
@@ -6293,6 +6393,13 @@
           "ScriptIndex": 630,
           "CancelInts": null,
           "UnknownBytes": "AAoKCAAKDw8KCgoADw8eHhQUABQUFAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 	  ],
     },
@@ -6385,6 +6492,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAMDAAAABQABAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {
@@ -6459,9 +6573,31 @@
       "Cancels": null
     },
     {
-      "Index": 0,
+      "Index": 31,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "CA",
+          "Index": 28,
+          "ScriptIndex": 1200,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA2",
+          "Index": 70,
+          "ScriptIndex": 1200,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_VCANCEL_KK",
+          "Index": 81,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+      ]
     },
     {
       "Index": 32,
@@ -6599,7 +6735,14 @@
           "ScriptIndex": 813,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -6620,6 +6763,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -6630,6 +6780,13 @@
           "Name": "CA2_CANSELYOU",
           "Index": 71,
           "ScriptIndex": 1200,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -6660,6 +6817,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {
@@ -6677,6 +6841,13 @@
           "Name": "VT1_CS_C_CANCELYOU_LOOP",
           "Index": 74,
           "ScriptIndex": 740,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -7018,7 +7189,14 @@
           "ScriptIndex": 813,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -7157,7 +7335,14 @@
           "ScriptIndex": 813,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -7296,7 +7481,14 @@
           "ScriptIndex": 813,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -7316,7 +7508,14 @@
           "ScriptIndex": 904,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {
@@ -7446,7 +7645,14 @@
           "ScriptIndex": 750,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -7466,7 +7672,14 @@
           "ScriptIndex": 751,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -7571,6 +7784,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -7604,7 +7824,14 @@
           "ScriptIndex": 905,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -7722,13 +7949,112 @@
           "ScriptIndex": 754,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
-      "Index": 0,
+      "Index": 78,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "V_CANCEL",
+          "Index": 64,
+          "ScriptIndex": 750,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT1_START",
+          "Index": 32,
+          "ScriptIndex": 740,
+          "CancelInts": null,
+          "UnknownBytes": "AAIDChQABQAFBQAAAgUCBgYKAAoFCggICAAICAgKBQoACAgI"
+        },
+        {
+          "Name": "VT2_START",
+          "Index": 34,
+          "ScriptIndex": 750,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	   {
+          "Name": "VT1_CS_S_CANCEL",
+          "Index": 37,
+          "ScriptIndex": 902,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT1_CS_C",
+          "Index": 38,
+          "ScriptIndex": 905,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT2_SP_S",
+          "Index": 42,
+          "ScriptIndex": 753,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT2_SP_C",
+          "Index": 44,
+          "ScriptIndex": 754,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT2_SP_S_CANCEL",
+          "Index": 43,
+          "ScriptIndex": 758,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT2_SP_C",
+          "Index": 44,
+          "ScriptIndex": 754,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA",
+          "Index": 28,
+          "ScriptIndex": 1200,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA2",
+          "Index": 70,
+          "ScriptIndex": 1200,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "CA_VT2_C",
+          "Index": 29,
+          "ScriptIndex": 1204,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_VCANCEL_KK",
+          "Index": 81,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
       "Index": 79,
@@ -7845,7 +8171,14 @@
           "ScriptIndex": 754,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -7866,6 +8199,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ],
     },
     {
@@ -7876,6 +8216,13 @@
           "Name": "VT1_CS_C",
           "Index": 38,
           "ScriptIndex": 905,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -7906,6 +8253,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -7918,7 +8272,14 @@
           "ScriptIndex": 909,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -7945,7 +8306,14 @@
           "ScriptIndex": 759,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -8036,6 +8404,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -8119,6 +8494,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ],
     },
     {
@@ -8131,7 +8513,14 @@
           "ScriptIndex": 1204,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -8183,6 +8572,13 @@
           "Name": "VT2_SP_C",
           "Index": 44,
           "ScriptIndex": 754,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 80,
+          "ScriptIndex": 802,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },

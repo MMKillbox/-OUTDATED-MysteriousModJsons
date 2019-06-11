@@ -3472,6 +3472,118 @@
       ],
       "Name": "SYUNPU_L, SYUNPU_M, SYUNPU_H, SYUNPU_EX, VT2_SYUNPU, AIR_SYUNPU_L, AIR_SYUNPU_M, AIR_SYUNPU_H, AIR_SYUNPU_EX, "
     },
+	{
+      "Index": 30,
+      "InputEntries": [
+        {
+          "InputParts": [
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Down, Back",
+              "Unknown1": 2,
+              "Unknown2": 4096,
+              "Unknown3": 2,
+              "Unknown4": 0,
+              "Unknown5": 0
+            }
+          ]
+        },
+        {
+          "InputParts": [
+            {
+              "Buffer": 8,
+              "InputType": "Normal",
+              "InputDirection": "Back",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Down, Back",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            }
+          ]
+        },
+        {
+          "InputParts": [
+            {
+              "Buffer": 8,
+              "InputType": "Normal",
+              "InputDirection": "Back",
+              "Unknown1": 1,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 8,
+              "InputType": "Normal",
+              "InputDirection": "Down",
+              "Unknown1": 33,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 8,
+              "InputType": "Normal",
+              "InputDirection": "Back",
+              "Unknown1": 1,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            }
+          ]
+        },
+        {
+          "InputParts": [
+            {
+              "Buffer": 8,
+              "InputType": "Normal",
+              "InputDirection": "Back",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 8,
+              "InputType": "Normal",
+              "InputDirection": "Down",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Down, Back",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            }
+          ]
+        }
+      ],
+      "Name": "SHOURYU_L, SHOURYU_M, SHOURYU_H, SHOURYU_EX, VT1_01_SHOURYU_L, VT1_01_SHOURYU_M, VT1_01_SHOURYU_H, VT1_01_SHOURYU_EX, "
+    },
   ],
   "Moves": [
     {
@@ -6329,6 +6441,229 @@
       "NormalOrVtrigger": 0,
       "Unknown28": 0
     },
+	{
+      "Offset": 0,
+      "Index": 77,
+      "Name": "QCF_V_CANCEL",
+      "Input": 288,
+      "InputFlags": 20528,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 8192,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 300,
+      "VtriggerUsed": 300,
+      "Unknown16": 0,
+      "InputMotionIndex": 6,
+      "ScriptIndex": 1596,
+      "Unknown17": 1600,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.0,
+      "Unknown21": 1.3,
+      "Unknown22": 4,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	
+	{
+      "Offset": 0,
+      "Index": 78,
+      "Name": "SHOURYU_BACK_L",
+      "Input": 16,
+      "InputFlags": 20496,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 260,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -20,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": 30,
+      "ScriptIndex": 1593,
+      "Unknown17": 1601,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.75,
+      "Unknown21": 1.0,
+      "Unknown22": 10,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+    {
+      "Offset": 0,
+      "Index": 79,
+      "Name": "SHOURYU_BACK_M",
+      "Input": 32,
+      "InputFlags": 20496,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 516,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -20,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": 30,
+      "ScriptIndex": 1594,
+      "Unknown17": 1602,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.75,
+      "Unknown21": 1.0,
+      "Unknown22": 10,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+    {
+      "Offset": 0,
+      "Index": 80,
+      "Name": "SHOURYU_BACK_H",
+      "Input": 64,
+      "InputFlags": 20496,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 1028,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -20,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": 30,
+      "ScriptIndex": 1595,
+      "Unknown17": 1603,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.75,
+      "Unknown21": 1.0,
+      "Unknown22": 2,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 81,
+      "Name": "SHOURYU_BACK_EX",
+      "Input": 112,
+      "InputFlags": 20528,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 8,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 300,
+      "MeterUsed": 300,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": 30,
+      "ScriptIndex": 1592,
+      "Unknown17": 1604,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.75,
+      "Unknown21": 1.0,
+      "Unknown22": 10,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 82,
+      "Name": "AIR_PPP",
+      "Input": 112,
+      "InputFlags": 4128,
+      "PositionRestriction": 3,
+      "Unknown3": 0,
+      "RestrictionDistance": 1.2,
+	  "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 8192,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 300,
+      "MeterUsed": 300,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 1591,
+      "Unknown17": 1605,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.816999,
+      "Unknown21": 1.19,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
   ],
   "CancelLists": [
     {
@@ -6631,6 +6966,34 @@
           "CancelInts": null,
           "UnknownBytes": "AAUHAAAABwcFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "SHOURYU_BACK_L",
+          "Index": 78,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SHOURYU_BACK_M",
+          "Index": 79,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SHOURYU_BACK_H",
+          "Index": 80,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SHOURYU_BACK_EX",
+          "Index": 81,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 			  {
           "Name": "VT2_HCB_P",
           "Index": 59,
@@ -6644,6 +7007,34 @@
           "ScriptIndex": 600,
           "CancelInts": null,
           "UnknownBytes": "AAUHAAAABwcFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SHOURYU_BACK_L",
+          "Index": 78,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SHOURYU_BACK_M",
+          "Index": 79,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SHOURYU_BACK_H",
+          "Index": 80,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SHOURYU_BACK_EX",
+          "Index": 81,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 		{
           "Name": "THROW_N",
@@ -6750,6 +7141,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAUHAAAABwcFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 77,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -6798,7 +7196,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
-        
+        {
+          "Name": "AIR_PPP",
+          "Index": 82,
+          "ScriptIndex": 629,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -6846,6 +7250,13 @@
           "ScriptIndex": 629,
           "CancelInts": null,
           "UnknownBytes": "AA8PAAAAAAAPCgAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_PPP",
+          "Index": 82,
+          "ScriptIndex": 629,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
       ]
     },
@@ -7012,6 +7423,34 @@
           "ScriptIndex": 600,
           "CancelInts": null,
           "UnknownBytes": "AAUHAAAABwcFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SHOURYU_BACK_L",
+          "Index": 78,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SHOURYU_BACK_M",
+          "Index": 79,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SHOURYU_BACK_H",
+          "Index": 80,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SHOURYU_BACK_EX",
+          "Index": 81,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 			  {
           "Name": "VT2_HCB_P",
@@ -7218,6 +7657,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAUHAAAABwcFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 77,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -7313,6 +7759,13 @@
           "ScriptIndex": 600,
           "CancelInts": null,
           "UnknownBytes": "AAUHAAAABwcFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 77,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 	  ]
     },
@@ -7543,6 +7996,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAUHAAAABwcFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 77,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {
@@ -7733,6 +8193,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAUHAAAABwcFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 77,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {
@@ -7895,6 +8362,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAUHAAAABwcFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 77,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {
@@ -7913,9 +8387,17 @@
       "Cancels": null
     },
     {
-      "Index": 0,
+      "Index": 28,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "AIR_PPP",
+          "Index": 82,
+          "ScriptIndex": 629,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
       "Index": 29,
@@ -7941,6 +8423,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAEAAAAAAAAAAgAAAAAAAwUFAAAAAAUEAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 77,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ],
     },
     {
@@ -7951,6 +8440,13 @@
           "Name": "TC_8HK",
           "Index": 71,
           "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR_PPP",
+          "Index": 82,
+          "ScriptIndex": 629,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -8115,6 +8611,34 @@
           "UnknownBytes": "AAUHAAAABwcFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 		{
+          "Name": "SHOURYU_BACK_L",
+          "Index": 78,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SHOURYU_BACK_M",
+          "Index": 79,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SHOURYU_BACK_H",
+          "Index": 80,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "SHOURYU_BACK_EX",
+          "Index": 81,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
           "Name": "VT2_HCB_P",
           "Index": 59,
           "ScriptIndex": 600,
@@ -8206,6 +8730,13 @@
           "ScriptIndex": 600,
           "CancelInts": null,
           "UnknownBytes": "AAUHAAAABwcFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 77,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
       ]
     }

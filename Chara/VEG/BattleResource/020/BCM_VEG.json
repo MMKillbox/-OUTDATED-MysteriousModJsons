@@ -6159,6 +6159,42 @@
       "NormalOrVtrigger": 0,
       "Unknown28": 0
     },
+	{
+      "Offset": 0,
+      "Index": 112,
+      "Name": "QCF_VCANCEL",
+      "Input": 288,
+      "InputFlags": 4128,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "ProjectileLimit": 0,
+      "Unknown6": 32,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 300,
+      "VtriggerUsed": 300,
+      "Unknown16": 0,
+      "InputMotionIndex": 6,
+      "ScriptIndex": 816,
+      "Unknown17": 1500,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.0,
+      "Unknown21": 0.0,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
   ],
    "CancelLists": [
     {
@@ -6815,7 +6851,16 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
-
+        {
+          "Name": "QCF_VCANCEL",
+          "Index": 112,
+          "ScriptIndex": 1501,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 		{
           "Name": "BACK_TAUNT",
           "Index": 92,
@@ -7520,6 +7565,16 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 112,
+          "ScriptIndex": 1501,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 				{
           "Name": "BACK_TAUNT",
           "Index": 92,
@@ -7870,6 +7925,16 @@
           "Name": "CUSTOM_CA_START",
           "Index": 91,
           "ScriptIndex": 968,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 112,
+          "ScriptIndex": 1501,
           "CancelInts": {
             "Unknown1": 0,
             "Unknown2": 0
@@ -8512,6 +8577,16 @@
       "Unknown1": 0,
       "Cancels": [
 	  {
+          "Name": "QCF_VCANCEL",
+          "Index": 112,
+          "ScriptIndex": 1501,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  {
           "Name": "BACK_TAUNT",
           "Index": 92,
           "ScriptIndex": 1501,
@@ -9014,6 +9089,16 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 		{
+          "Name": "QCF_VCANCEL",
+          "Index": 112,
+          "ScriptIndex": 1501,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
           "Name": "BACK_TAUNT",
           "Index": 92,
           "ScriptIndex": 1501,
@@ -9142,6 +9227,16 @@
           "Name": "V_CANCEL LOL",
           "Index": 99,
           "ScriptIndex": 904,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 112,
+          "ScriptIndex": 1501,
           "CancelInts": {
             "Unknown1": 0,
             "Unknown2": 0
@@ -9287,7 +9382,17 @@
           "ScriptIndex": 931,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 112,
+          "ScriptIndex": 1501,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -9330,7 +9435,17 @@
             "Unknown2": 0
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 112,
+          "ScriptIndex": 1501,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -9377,7 +9492,16 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
-
+        {
+          "Name": "QCF_VCANCEL",
+          "Index": 112,
+          "ScriptIndex": 1501,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 		{
           "Name": "BACK_TAUNT",
           "Index": 92,

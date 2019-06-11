@@ -6275,7 +6275,7 @@
 	    {
       "Offset": 0,
       "Index": 110,
-      "Name": "VEE_REVORSUL",
+      "Name": "V_CANCEL",
       "Input": 292,
       "InputFlags": 4640,
       "PositionRestriction": 0,
@@ -6901,6 +6901,81 @@
       "NormalOrVtrigger": 0,
       "Unknown28": 0
     },
+	
+	{
+      "Offset": 0,
+      "Index": 127,
+      "Name": "QCF_V_CANCEL",
+      "Input": 292,
+      "InputFlags": 4640,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 1028,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 300,
+      "VtriggerUsed": 300,
+      "Unknown16": 0,
+      "InputMotionIndex": 6,
+      "ScriptIndex": 1599,
+      "Unknown17": 1601,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.0,
+      "Unknown21": 0.0,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 128,
+      "Name": "QCF_V_CANCEL_DP",
+      "Input": 292,
+      "InputFlags": 4640,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 1028,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 300,
+      "VtriggerUsed": 300,
+      "Unknown16": 0,
+      "InputMotionIndex": 6,
+      "ScriptIndex": 1597,
+      "Unknown17": 1600,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.0,
+      "Unknown21": 0.0,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
   ],
   "CancelLists": [
     {
@@ -7286,7 +7361,7 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 			   {
-          "Name": "VEE_REVORSUL",
+          "Name": "V_CANCEL",
           "Index": 110,
           "ScriptIndex": 899,
           "CancelInts": null,
@@ -7422,6 +7497,13 @@
           "Name": "BACK TAUNT",
           "Index": 111,
           "ScriptIndex": 1500,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 127,
+          "ScriptIndex": 909,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -7905,7 +7987,7 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 					   {
-          "Name": "VEE_REVORSUL",
+          "Name": "V_CANCEL",
           "Index": 110,
           "ScriptIndex": 899,
           "CancelInts": null,
@@ -7985,6 +8067,13 @@
           "Name": "BACK TAUNT",
           "Index": 111,
           "ScriptIndex": 1500,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 127,
+          "ScriptIndex": 909,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -8289,7 +8378,7 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 					   {
-          "Name": "VEE_REVORSUL",
+          "Name": "V_CANCEL",
           "Index": 110,
           "ScriptIndex": 899,
           "CancelInts": null,
@@ -8313,6 +8402,13 @@
           "Name": "BACK TAUNT",
           "Index": 111,
           "ScriptIndex": 1500,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 127,
+          "ScriptIndex": 909,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -8414,7 +8510,7 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 					   {
-          "Name": "VEE_REVORSUL",
+          "Name": "V_CANCEL",
           "Index": 110,
           "ScriptIndex": 899,
           "CancelInts": null,
@@ -8491,9 +8587,16 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 					   {
-          "Name": "VEE_REVORSUL",
+          "Name": "V_CANCEL",
           "Index": 110,
           "ScriptIndex": 899,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 127,
+          "ScriptIndex": 909,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -8537,7 +8640,14 @@
           "ScriptIndex": 672,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_V_CANCEL_DP",
+          "Index": 128,
+          "ScriptIndex": 909,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
      ],
 	},
     {
@@ -8550,7 +8660,14 @@
           "ScriptIndex": 672,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_V_CANCEL_DP",
+          "Index": 128,
+          "ScriptIndex": 909,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {
@@ -8595,6 +8712,13 @@
           "Name": "VT1_SP_DP",
           "Index": 116,
           "ScriptIndex": 939,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_V_CANCEL_DP",
+          "Index": 128,
+          "ScriptIndex": 909,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -8657,6 +8781,20 @@
           "Name": "BACK TAUNT",
           "Index": 111,
           "ScriptIndex": 1500,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 127,
+          "ScriptIndex": 909,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 127,
+          "ScriptIndex": 909,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -8961,12 +9099,19 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 					   {
-          "Name": "VEE_REVORSUL",
+          "Name": "V_CANCEL",
           "Index": 110,
           "ScriptIndex": 899,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 127,
+          "ScriptIndex": 909,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -9401,12 +9546,19 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 					   {
-          "Name": "VEE_REVORSUL",
+          "Name": "V_CANCEL",
           "Index": 110,
           "ScriptIndex": 899,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 127,
+          "ScriptIndex": 909,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -9442,9 +9594,16 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 					   {
-          "Name": "VEE_REVORSUL",
+          "Name": "V_CANCEL",
           "Index": 110,
           "ScriptIndex": 899,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 127,
+          "ScriptIndex": 909,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -9729,12 +9888,19 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 		{
-          "Name": "VEE_REVORSUL",
+          "Name": "V_CANCEL",
           "Index": 110,
           "ScriptIndex": 899,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 127,
+          "ScriptIndex": 909,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {
@@ -9798,12 +9964,19 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 					   {
-          "Name": "VEE_REVORSUL",
+          "Name": "V_CANCEL",
           "Index": 110,
           "ScriptIndex": 899,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 127,
+          "ScriptIndex": 909,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {
@@ -9827,6 +10000,13 @@
 					   {
           "Name": "V_CANCEL_DP",
           "Index": 119,
+          "ScriptIndex": 909,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_V_CANCEL_DP",
+          "Index": 128,
           "ScriptIndex": 909,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -9866,9 +10046,16 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 					   {
-          "Name": "VEE_REVORSUL",
+          "Name": "V_CANCEL",
           "Index": 110,
           "ScriptIndex": 899,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 127,
+          "ScriptIndex": 909,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -10075,12 +10262,19 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 					   {
-          "Name": "VEE_REVORSUL",
+          "Name": "V_CANCEL",
           "Index": 110,
           "ScriptIndex": 899,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 127,
+          "ScriptIndex": 909,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {

@@ -45,37 +45,31 @@
             {
               "TickStart": 0,
               "TickEnd": 1,
-              "Amount": 0.0,
+              "Amount": -0.05,
               "Flag": "HorizontalSpeed"
             },
             {
               "TickStart": 4,
               "TickEnd": 5,
-              "Amount": -0.004,
-              "Flag": "HorizontalSpeed"
-            },
-            {
-              "TickStart": 8,
-              "TickEnd": 9,
-              "Amount": 0.001,
-              "Flag": "VerticalAcceleration"
-            },
-            {
-              "TickStart": 8,
-              "TickEnd": 9,
-              "Amount": -0.01,
-              "Flag": "HorizontalSpeed"
-            },
-			{
-              "TickStart": 14,
-              "TickEnd": 15,
               "Amount": -0.03,
               "Flag": "HorizontalSpeed"
             },
             {
-              "TickStart": 14,
-              "TickEnd": 15,
-              "Amount": -0.009,
+              "TickStart": 8,
+              "TickEnd": 9,
+              "Amount": -0.03,
+              "Flag": "HorizontalSpeed"
+            },
+			{
+              "TickStart": 5,
+              "TickEnd": 6,
+              "Amount": -0.03,
+              "Flag": "HorizontalSpeed"
+            },
+            {
+              "TickStart": 5,
+              "TickEnd": 6,
+              "Amount": -0.01,
               "Flag": "VerticalAcceleration"
             }
           ],

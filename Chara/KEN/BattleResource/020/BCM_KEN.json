@@ -3183,7 +3183,7 @@
       "Unknown3": 0,
       "RestrictionDistance": 0.0,
       "Unknown4": 0,
-      "ProjectileLimit": -2147483647,
+      "ProjectileLimit": -2147483645,
       "Unknown6": 16644,
       "Unknown7": 0,
       "Unknown8": 1,
@@ -3220,7 +3220,7 @@
       "Unknown3": 0,
       "RestrictionDistance": 0.0,
       "Unknown4": 0,
-      "ProjectileLimit": -2147483647,
+      "ProjectileLimit": -2147483645,
       "Unknown6": 16900,
       "Unknown7": 0,
       "Unknown8": 1,
@@ -3257,7 +3257,7 @@
       "Unknown3": 0,
       "RestrictionDistance": 0.0,
       "Unknown4": 0,
-      "ProjectileLimit": -2147483647,
+      "ProjectileLimit": -2147483645,
       "Unknown6": 17412,
       "Unknown7": 0,
       "Unknown8": 1,
@@ -3294,7 +3294,7 @@
       "Unknown3": 0,
       "RestrictionDistance": 0.0,
       "Unknown4": 0,
-      "ProjectileLimit": -2147483647,
+      "ProjectileLimit": -2147483645,
       "Unknown6": 8,
       "Unknown7": 0,
       "Unknown8": 1,
@@ -8673,6 +8673,16 @@
           "Index": 95,
           "ScriptIndex": 1598,
           "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "BACK_TOUNT",
+          "Index": 89,
+          "ScriptIndex": 1498,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
       ]

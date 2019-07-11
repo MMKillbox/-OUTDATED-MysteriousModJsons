@@ -27954,7 +27954,7 @@
       "HIT_AIR": {
         "Type": 3,
         "Index": 210,
-        "DamageType": 31,
+        "DamageType": 9,
         "Unused1": 0,
         "NumberOfType1": 2,
         "NumberOfType2": 1,

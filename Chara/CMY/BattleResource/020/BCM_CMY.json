@@ -6415,7 +6415,14 @@
           "ScriptIndex": 854,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "QCF_VCANCEL",
+          "Index": 93,
+          "ScriptIndex": 1501,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
     },
     {

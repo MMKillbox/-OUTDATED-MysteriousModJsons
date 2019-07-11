@@ -2061,7 +2061,7 @@
       "VtriggerUsed": 0,
       "Unknown16": 0,
       "InputMotionIndex": -1,
-      "ScriptIndex": 639,
+      "ScriptIndex": 626,
       "Unknown17": 22,
       "Unknown18": 0,
       "Unknown19": 0,
@@ -2564,7 +2564,7 @@
       "InputFlags": 4626,
       "PositionRestriction": 3,
       "Unknown3": 4,
-      "RestrictionDistance": 0.6,
+      "RestrictionDistance": 0.1,
       "Unknown4": 0,
       "ProjectileLimit": 0,
       "Unknown6": 4354,
@@ -2601,7 +2601,7 @@
       "InputFlags": 4626,
       "PositionRestriction": 3,
       "Unknown3": 4,
-      "RestrictionDistance": 0.6,
+      "RestrictionDistance": 0.1,
       "Unknown4": 0,
       "ProjectileLimit": 0,
       "Unknown6": 4610,
@@ -2638,7 +2638,7 @@
       "InputFlags": 4626,
       "PositionRestriction": 3,
       "Unknown3": 4,
-      "RestrictionDistance": 0.6,
+      "RestrictionDistance": 0.1,
       "Unknown4": 0,
       "ProjectileLimit": 0,
       "Unknown6": 5122,
@@ -3082,7 +3082,7 @@
       "InputFlags": 20528,
       "PositionRestriction": 0,
       "Unknown3": 4,
-      "RestrictionDistance": 0.7,
+      "RestrictionDistance": 0.0,
       "Unknown4": 0,
       "ProjectileLimit": 0,
       "Unknown6": 8,
@@ -3834,7 +3834,7 @@
       "Unknown10": 0,
       "Unknown11": 0,
       "VtriggerRequirement": 0,
-      "VtriggerUsed": 0,
+      "VtriggerUsed": -40,
       "Unknown16": 0,
       "InputMotionIndex": -1,
       "ScriptIndex": -1,
@@ -3871,7 +3871,7 @@
       "Unknown10": 0,
       "Unknown11": 0,
       "VtriggerRequirement": 0,
-      "VtriggerUsed": 0,
+      "VtriggerUsed": -40,
       "Unknown16": 0,
       "InputMotionIndex": -1,
       "ScriptIndex": 745,
@@ -3908,7 +3908,7 @@
       "Unknown10": 0,
       "Unknown11": 0,
       "VtriggerRequirement": 0,
-      "VtriggerUsed": 0,
+      "VtriggerUsed": -40,
       "Unknown16": 0,
       "InputMotionIndex": -1,
       "ScriptIndex": 747,
@@ -3933,7 +3933,7 @@
       "InputFlags": 4128,
       "PositionRestriction": 3,
       "Unknown3": 4,
-      "RestrictionDistance": 0.8,
+      "RestrictionDistance": 0.6,
       "Unknown4": 0,
       "ProjectileLimit": 0,
       "Unknown6": 32,
@@ -3945,7 +3945,7 @@
       "Unknown10": 0,
       "Unknown11": 0,
       "VtriggerRequirement": 0,
-      "VtriggerUsed": 0,
+      "VtriggerUsed": -40,
       "Unknown16": 0,
       "InputMotionIndex": -1,
       "ScriptIndex": 741,
@@ -4743,8 +4743,8 @@
       "Offset": 0,
       "Index": 90,
       "Name": "Vcancel_yogaboys",
-      "Input": 288,
-      "InputFlags": 4128,
+      "Input": 292,
+      "InputFlags": 4641,
       "PositionRestriction": 0,
       "Unknown3": 0,
       "RestrictionDistance": 0.0,
@@ -5256,6 +5256,154 @@
       "NormalOrVtrigger": 0,
       "Unknown28": 0
     },
+	{
+      "Offset": 0,
+      "Index": 104,
+      "Name": "8MK_TC",
+      "Input": 256,
+      "InputFlags": 4112,
+      "PositionRestriction": 0,
+      "Unknown3": 4,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 4608,
+      "Unknown7": 1,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 1598,
+      "Unknown17": 22,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.3,
+      "Unknown21": 1.75,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 105,
+      "Name": "8MP_TC",
+      "Input": 32,
+      "InputFlags": 4112,
+      "PositionRestriction": 0,
+      "Unknown3": 4,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 2560,
+      "Unknown7": 1,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 1597,
+      "Unknown17": 19,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.9,
+      "Unknown21": 1.5,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 106,
+      "Name": "VT1_SP",
+      "Input": 576,
+      "InputFlags": 4128,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": -2147482115,
+      "Unknown6": 8192,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 196608001,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 755,
+      "Unknown17": 110,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.7,
+      "Unknown21": 0.6,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 107,
+      "Name": "VT1_AIR_SP",
+      "Input": 576,
+      "InputFlags": 4128,
+      "PositionRestriction": 0,
+      "Unknown3": 4,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": -2147482115,
+      "Unknown6": 4,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 65536001,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 769,
+      "Unknown17": 97,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.7,
+      "Unknown21": 0.6,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
   ],
   "CancelLists": [
     {
@@ -5563,6 +5711,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT1_SP",
+          "Index": 106,
+          "ScriptIndex": 756,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "VT2_SP",
           "Index": 74,
@@ -5689,16 +5844,16 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "8MP",
-          "Index": 14,
-          "ScriptIndex": 623,
+          "Name": "8MK_TC",
+          "Index": 104,
+          "ScriptIndex": 626,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
-        {
-          "Name": "8MK",
-          "Index": 16,
-          "ScriptIndex": 626,
+		{
+          "Name": "8MP_TC",
+          "Index": 105,
+          "ScriptIndex": 623,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -5834,7 +5989,7 @@
           "ScriptIndex": 768,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
       ]
     },
     {
@@ -5856,16 +6011,16 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "8MP",
-          "Index": 14,
-          "ScriptIndex": 623,
+          "Name": "8MK_TC",
+          "Index": 104,
+          "ScriptIndex": 626,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
-        {
-          "Name": "8MK",
-          "Index": 16,
-          "ScriptIndex": 626,
+		{
+          "Name": "8MP_TC",
+          "Index": 105,
+          "ScriptIndex": 623,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -6001,7 +6156,8 @@
           "ScriptIndex": 768,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		
       ]
     },
     {
@@ -6023,16 +6179,16 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "8MP",
-          "Index": 14,
-          "ScriptIndex": 623,
+          "Name": "8MK_TC",
+          "Index": 104,
+          "ScriptIndex": 626,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
-        {
-          "Name": "8MK",
-          "Index": 16,
-          "ScriptIndex": 626,
+		{
+          "Name": "8MP_TC",
+          "Index": 105,
+          "ScriptIndex": 623,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -6140,7 +6296,8 @@
           "ScriptIndex": 768,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+
       ]
     },
     {
@@ -6351,6 +6508,7 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+
 						{
 		  "Name": "BACK_TOUNT",
 		  "Index": 91,
@@ -6657,6 +6815,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT1_SP",
+          "Index": 106,
+          "ScriptIndex": 756,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "V_REVERSAL",
           "Index": 76,
@@ -6780,9 +6945,38 @@
       "Cancels": null
     },
     {
-      "Index": 0,
+      "Index": 28,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "TELEPO-623PPP-AIR",
+          "Index": 50,
+          "ScriptIndex": 936,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "TELEPO-623KKK-AIR",
+          "Index": 51,
+          "ScriptIndex": 937,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "TELEPO-421PPP-AIR",
+          "Index": 52,
+          "ScriptIndex": 938,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "TELEPO-421KKK-AIR",
+          "Index": 53,
+          "ScriptIndex": 939,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
       "Index": 29,
@@ -6798,14 +6992,30 @@
 	  ]
     },
     {
-      "Index": 0,
+      "Index": 30,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "8MK",
+          "Index": 16,
+          "ScriptIndex": 626,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
-      "Index": 0,
+      "Index": 31,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "8MP",
+          "Index": 14,
+          "ScriptIndex": 623,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
       "Index": 32,
@@ -6979,6 +7189,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT1_SP",
+          "Index": 106,
+          "ScriptIndex": 756,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 		        {
           "Name": "VT2",
           "Index": 72,
@@ -7052,7 +7269,14 @@
           "ScriptIndex": 767,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "VT1_SP",
+          "Index": 106,
+          "ScriptIndex": 756,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -7114,7 +7338,14 @@
           "ScriptIndex": 767,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "VT1_SP",
+          "Index": 106,
+          "ScriptIndex": 756,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -7253,7 +7484,8 @@
           "ScriptIndex": 768,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+
       ]
     },
     {
@@ -7261,44 +7493,44 @@
       "Unknown1": 0,
       "Cancels": [
         {
-          "Name": "VS_8LP",
-          "Index": 20,
-          "ScriptIndex": 631,
+          "Name": "8LP",
+          "Index": 12,
+          "ScriptIndex": 622,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "VS_8LK",
-          "Index": 21,
-          "ScriptIndex": 634,
+          "Name": "8LK",
+          "Index": 13,
+          "ScriptIndex": 625,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "VS_8MP",
-          "Index": 22,
-          "ScriptIndex": 632,
+          "Name": "8MP",
+          "Index": 14,
+          "ScriptIndex": 623,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "VS_8MK",
-          "Index": 23,
-          "ScriptIndex": 635,
+          "Name": "8MK",
+          "Index": 16,
+          "ScriptIndex": 626,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "VS_8HP",
-          "Index": 24,
-          "ScriptIndex": 633,
+          "Name": "8HP",
+          "Index": 18,
+          "ScriptIndex": 624,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "VS_8HK",
-          "Index": 25,
-          "ScriptIndex": 636,
+          "Name": "8HK",
+          "Index": 19,
+          "ScriptIndex": 627,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -7407,44 +7639,44 @@
       "Unknown1": 0,
       "Cancels": [
         {
-          "Name": "VS_8LP",
-          "Index": 20,
-          "ScriptIndex": 631,
+          "Name": "8LP",
+          "Index": 12,
+          "ScriptIndex": 622,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "VS_8LK",
-          "Index": 21,
-          "ScriptIndex": 634,
+          "Name": "8LK",
+          "Index": 13,
+          "ScriptIndex": 625,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "VS_8MP",
-          "Index": 22,
-          "ScriptIndex": 632,
+          "Name": "8MP",
+          "Index": 14,
+          "ScriptIndex": 623,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "VS_8MK",
-          "Index": 23,
-          "ScriptIndex": 635,
+          "Name": "8MK",
+          "Index": 16,
+          "ScriptIndex": 626,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
           "Name": "VS_8HP",
           "Index": 24,
-          "ScriptIndex": 633,
+          "ScriptIndex": 626,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "VS_8HK",
-          "Index": 25,
-          "ScriptIndex": 636,
+          "Name": "8HK",
+          "Index": 19,
+          "ScriptIndex": 627,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -7559,7 +7791,8 @@
           "ScriptIndex": 768,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+
       ]
     },
     {
@@ -7567,44 +7800,44 @@
       "Unknown1": 0,
       "Cancels": [
         {
-          "Name": "VS_8LP",
-          "Index": 20,
-          "ScriptIndex": 631,
+          "Name": "8LP",
+          "Index": 12,
+          "ScriptIndex": 622,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "VS_8LK",
-          "Index": 21,
-          "ScriptIndex": 634,
+          "Name": "8LK",
+          "Index": 13,
+          "ScriptIndex": 625,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "VS_8MP",
-          "Index": 22,
-          "ScriptIndex": 632,
+          "Name": "8MP",
+          "Index": 14,
+          "ScriptIndex": 623,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "VS_8MK",
-          "Index": 23,
-          "ScriptIndex": 635,
+          "Name": "8MK",
+          "Index": 16,
+          "ScriptIndex": 626,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "VS_8HP",
-          "Index": 24,
-          "ScriptIndex": 633,
+          "Name": "8HP",
+          "Index": 18,
+          "ScriptIndex": 624,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
-          "Name": "VS_8HK",
-          "Index": 25,
-          "ScriptIndex": 636,
+          "Name": "8HK",
+          "Index": 19,
+          "ScriptIndex": 627,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -7712,13 +7945,78 @@
           "ScriptIndex": 768,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+
       ]
     },
     {
-      "Index": 0,
+      "Index": 40,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "GAIL_L",
+          "Index": 42,
+          "ScriptIndex": 945,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "GAIL_M",
+          "Index": 43,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "GAIL_H",
+          "Index": 44,
+          "ScriptIndex": 949,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "GAIL_EX",
+          "Index": 45,
+          "ScriptIndex": 951,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "AIR-SUNBURST_L",
+          "Index": 57,
+          "ScriptIndex": 1214,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "AIR-SUNBURST_M",
+          "Index": 58,
+          "ScriptIndex": 1215,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "AIR-SUNBURST_H",
+          "Index": 59,
+          "ScriptIndex": 1216,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT2_AIR",
+          "Index": 73,
+          "ScriptIndex": 766,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT2_AIR_SP",
+          "Index": 75,
+          "ScriptIndex": 768,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
       "Index": 41,
@@ -7777,6 +8075,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "VT1_SP",
+          "Index": 106,
+          "ScriptIndex": 756,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	    {
 		  "Name": "Vcancel_yogaboys",
 		  "Index": 90,
@@ -7817,7 +8122,8 @@
           "ScriptIndex": 768,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+
       ]
     },
     {
@@ -7957,12 +8263,33 @@
 	  "Unknown1": 0,
 	  "Cancels": [
 	    {
+          "Name": "V_SKILL_N",
+          "Index": 65,
+          "ScriptIndex": -1,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "V_SKILL_V",
+          "Index": 66,
+          "ScriptIndex": 745,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
           "Name": "V_SKILL_F",
           "Index": 67,
           "ScriptIndex": 747,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+		  "Name": "Vcancel_yogaboys",
+		  "Index": 90,
+		  "ScriptIndex": 1203,
+		  "CancelInts": null,
+		  "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+		},
 	  ]
 	},
     {
@@ -8030,7 +8357,14 @@
           "ScriptIndex": 767,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "VT1_SP",
+          "Index": 106,
+          "ScriptIndex": 756,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
 	  ]
 	},
 	{
@@ -8299,27 +8633,207 @@
 		  "CancelInts": null,
 		  "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 		},
+		{
+          "Name": "AIR-SUNBURST_L",
+          "Index": 57,
+          "ScriptIndex": 1214,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "AIR-SUNBURST_M",
+          "Index": 58,
+          "ScriptIndex": 1215,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "AIR-SUNBURST_H",
+          "Index": 59,
+          "ScriptIndex": 1216,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT2_AIR",
+          "Index": 73,
+          "ScriptIndex": 766,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT2_AIR_SP",
+          "Index": 75,
+          "ScriptIndex": 768,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
-      "Index": 0,
+      "Index": 61,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+		{
+          "Name": "VS_8HP",
+          "Index": 24,
+          "ScriptIndex": 626,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "8HK",
+          "Index": 19,
+          "ScriptIndex": 627,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
-      "Index": 0,
+      "Index": 62,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+		{
+          "Name": "VS_8HP",
+          "Index": 24,
+          "ScriptIndex": 626,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "8HK",
+          "Index": 19,
+          "ScriptIndex": 627,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
-      "Index": 0,
+      "Index": 63,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+		{
+          "Name": "8MK_TC",
+          "Index": 104,
+          "ScriptIndex": 626,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "8MP_TC",
+          "Index": 105,
+          "ScriptIndex": 623,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VS_8HP",
+          "Index": 24,
+          "ScriptIndex": 626,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "8HK",
+          "Index": 19,
+          "ScriptIndex": 627,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	 ]
     },
     {
-      "Index": 0,
+      "Index": 64,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "DORIL_L",
+          "Index": 31,
+          "ScriptIndex": 677,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "DORIL_M",
+          "Index": 32,
+          "ScriptIndex": 678,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "DORIL_H",
+          "Index": 33,
+          "ScriptIndex": 679,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "GAIL_L",
+          "Index": 42,
+          "ScriptIndex": 945,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "GAIL_M",
+          "Index": 43,
+          "ScriptIndex": 947,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "GAIL_H",
+          "Index": 44,
+          "ScriptIndex": 949,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "GAIL_EX",
+          "Index": 45,
+          "ScriptIndex": 951,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "AIR-SUNBURST_L",
+          "Index": 57,
+          "ScriptIndex": 1214,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "AIR-SUNBURST_M",
+          "Index": 58,
+          "ScriptIndex": 1215,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "AIR-SUNBURST_H",
+          "Index": 59,
+          "ScriptIndex": 1216,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT2_AIR",
+          "Index": 73,
+          "ScriptIndex": 766,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT2_AIR_SP",
+          "Index": 75,
+          "ScriptIndex": 768,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+
+	  ]
     },
     {
       "Index": 65,
@@ -8506,7 +9020,14 @@
           "ScriptIndex": 767,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "VT1_SP",
+          "Index": 106,
+          "ScriptIndex": 756,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -8694,7 +9215,14 @@
           "ScriptIndex": 767,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "VT1_SP",
+          "Index": 106,
+          "ScriptIndex": 756,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -8882,7 +9410,14 @@
           "ScriptIndex": 767,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "VT1_SP",
+          "Index": 106,
+          "ScriptIndex": 756,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -9070,7 +9605,14 @@
           "ScriptIndex": 767,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "VT1_SP",
+          "Index": 106,
+          "ScriptIndex": 756,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -9216,7 +9758,14 @@
           "ScriptIndex": 767,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
+        },
+		{
+          "Name": "VT1_SP",
+          "Index": 106,
+          "ScriptIndex": 756,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
       ]
     },
     {
@@ -9485,6 +10034,13 @@
         {
           "Name": "VT2_SP",
           "Index": 74,
+          "ScriptIndex": 767,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT1_SP",
+          "Index": 106,
           "ScriptIndex": 767,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"

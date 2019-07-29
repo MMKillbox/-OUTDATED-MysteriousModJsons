@@ -6373,7 +6373,7 @@
       "VtriggerUsed": 0,
       "Unknown16": 0,
       "InputMotionIndex": -1,
-      "ScriptIndex": 611,
+      "ScriptIndex": 1193,
       "Unknown17": 1001,
       "Unknown18": 0,
       "Unknown19": 0,
@@ -6481,7 +6481,7 @@
       "VtriggerUsed": 0,
       "Unknown16": 0,
       "InputMotionIndex": -1,
-      "ScriptIndex": 620,
+      "ScriptIndex": 1192,
       "Unknown17": 1004,
       "Unknown18": 0,
       "Unknown19": 0,
@@ -6816,6 +6816,43 @@
       "Unknown19": 0,
       "Unknown20": 0.0,
       "Unknown21": 0.0,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 139,
+      "Name": "V_SKILL_UP",
+      "Input": 289,
+      "InputFlags": 4641,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 260,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -20,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 1194,
+      "Unknown17": 76,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.7,
+      "Unknown21": 1.8,
       "Unknown22": 0,
       "Unknown23": 0,
       "Unknown24": 0,
@@ -8214,9 +8251,66 @@
       "Cancels": null
     },
     {
-      "Index": 0,
+      "Index": 28,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "8LP_VT",
+          "Index": 51,
+          "ScriptIndex": 796,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "8LK_VT",
+          "Index": 53,
+          "ScriptIndex": 805,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "8MP",
+          "Index": 54,
+          "ScriptIndex": 631,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "8MP_VT",
+          "Index": 55,
+          "ScriptIndex": 798,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "8MK_VT",
+          "Index": 58,
+          "ScriptIndex": 807,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "8HP_VT",
+          "Index": 61,
+          "ScriptIndex": 801,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "8HK_VT",
+          "Index": 64,
+          "ScriptIndex": 810,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "THROW_A",
+          "Index": 116,
+          "ScriptIndex": 718,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        }
+	  ]
     },
     {
       "Index": 29,
@@ -8315,9 +8409,24 @@
       ]
     },
     {
-      "Index": 0,
+      "Index": 31,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+        {
+          "Name": "FUHA_L_R",
+          "Index": 71,
+          "ScriptIndex": 937,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_FUHA_L",
+          "Index": 79,
+          "ScriptIndex": 863,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
       "Index": 32,
@@ -10092,6 +10201,13 @@
 		{
           "Name": "V_2Hp",
           "Index": 129,
+          "ScriptIndex": 620,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_SKILL_UP",
+          "Index": 139,
           "ScriptIndex": 620,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"

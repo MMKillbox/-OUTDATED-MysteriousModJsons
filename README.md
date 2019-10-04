@@ -1,3 +1,5 @@
+Release Build : https://github.com/MMKillbox/MysteriousMod/releases
+
 # MysteriousModJsons
 
 

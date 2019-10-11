@@ -5625,6 +5625,80 @@
       "NormalOrVtrigger": 0,
       "Unknown28": 0
     },
+	{
+      "Offset": 0,
+      "Index": 77,
+      "Name": "V_SKILL_EX_FLICKER_HIT",
+      "Input": 288,
+      "InputFlags": 4128,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 32,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 1497,
+      "Unknown17": 121,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.0,
+      "Unknown21": 1.3,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+    {
+      "Offset": 0,
+      "Index": 78,
+      "Name": "V_SKILL_2_EX_FLICKER_HIT",
+      "Input": 290,
+      "InputFlags": 4641,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 32,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 917,
+      "Unknown17": 123,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.0,
+      "Unknown21": 1.3,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
   ],
   "CancelLists": [
     {
@@ -7666,6 +7740,16 @@
           },
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "V_SKILL_EX_FLICKER_HIT",
+          "Index": 77,
+          "ScriptIndex": 654,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "CA",
           "Index": 33,
@@ -9346,9 +9430,170 @@
       "Cancels": null
     },
     {
-      "Index": 0,
+      "Index": 79,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "PSYCHO-SPARK",
+          "Index": 23,
+          "ScriptIndex": 654,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "PSYCHO-SPARK_EX",
+          "Index": 56,
+          "ScriptIndex": 655,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "PSYCHO-UPPER_L_MM",
+          "Index": 60,
+          "ScriptIndex": 1148,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "PSYCHO-UPPER_M_MM",
+          "Index": 61,
+          "ScriptIndex": 1147,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "PSYCHO-UPPER_H_MM",
+          "Index": 62,
+          "ScriptIndex": 1147,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "PSYCHO-UPPER_EX",
+          "Index": 63,
+          "ScriptIndex": 961,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "PSYCHO-RIZING_L_MM",
+          "Index": 66,
+          "ScriptIndex": 1146,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "PSYCHO-RIZING_M_MM",
+          "Index": 67,
+          "ScriptIndex": 1145,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "PSYCHO-RIZING_H",
+          "Index": 30,
+          "ScriptIndex": 950,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "PSYCHO-RIZING_EX",
+          "Index": 55,
+          "ScriptIndex": 951,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "CA",
+          "Index": 33,
+          "ScriptIndex": 1150,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA2",
+          "Index": 69,
+          "ScriptIndex": 1512,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT2_CA2",
+          "Index": 72,
+          "ScriptIndex": 1512,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT2_SP",
+          "Index": 41,
+          "ScriptIndex": 752,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "VT2_SP_AIR",
+          "Index": 43,
+          "ScriptIndex": 757,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "BACK_TOUNT",
+          "Index": 70,
+          "ScriptIndex": 1503,
+          "CancelInts": {
+            "Unknown1": 0,
+            "Unknown2": 0
+          },
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        }  
+	  ]
     },
     {
       "Index": 80,

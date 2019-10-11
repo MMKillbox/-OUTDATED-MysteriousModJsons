@@ -3047,7 +3047,109 @@
         }
       ],
       "Name": "GND_TATSUMAKI_L, GND_TATSUMAKI_M, GND_TATSUMAKI_H, GND_TATSUMAKI_EX, AIR_TATSUMAKI_L, AIR_TATSUMAKI_M, AIR_TATSUMAKI_H, FAIR_TATSUMAKI_L, FAIR_TATSUMAKI_M, FAIR_TATSUMAKI_H, AIR_TATSUMAKI_EX, "
-    }
+    },
+	{
+      "Index": 25,
+      "InputEntries": [
+        {
+          "InputParts": [
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Down",
+              "Unknown1": 1,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Up",
+              "Unknown1": 1,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            }
+          ]
+        },
+        {
+          "InputParts": [
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Down",
+              "Unknown1": 1,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Up",
+              "Unknown1": 1,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            }
+          ]
+        },
+        {
+          "InputParts": [
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Down",
+              "Unknown1": 1,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 10,
+              "InputType": "Normal",
+              "InputDirection": "Up",
+              "Unknown1": 1,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            }
+          ]
+        },
+        {
+          "InputParts": [
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Down",
+              "Unknown1": 1,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 4,
+              "InputType": "Normal",
+              "InputDirection": "Up",
+              "Unknown1": 1,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            }
+          ]
+        }
+      ],
+      "Name": "SPNNING_EX, VT_SPNNING_EX, "
+    },
   ],
   "Moves": [
     {
@@ -4351,9 +4453,9 @@
       "Name": "92MK_1",
       "Input": 258,
       "InputFlags": 4626,
-      "PositionRestriction": 3,
-      "Unknown3": 4,
-      "RestrictionDistance": 0.1,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
       "Unknown4": 0,
       "ProjectileLimit": 0,
       "Unknown6": 4610,
@@ -4388,9 +4490,9 @@
       "Name": "VS 92MK_1",
       "Input": 258,
       "InputFlags": 4626,
-      "PositionRestriction": 3,
-      "Unknown3": 4,
-      "RestrictionDistance": 0.1,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
       "Unknown4": 0,
       "ProjectileLimit": 0,
       "Unknown6": 4610,
@@ -5646,9 +5748,9 @@
       "Name": "VT_92MK_1",
       "Input": 258,
       "InputFlags": 4626,
-      "PositionRestriction": 3,
-      "Unknown3": 4,
-      "RestrictionDistance": 0.1,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
       "Unknown4": 0,
       "ProjectileLimit": -2147483648,
       "Unknown6": 4610,
@@ -8856,6 +8958,413 @@
       "NormalOrVtrigger": 0,
       "Unknown28": 0
     },
+	{
+      "Offset": 0,
+      "Index": 157,
+      "Name": "4MK",
+      "Input": 260,
+      "InputFlags": 4626,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 4608,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 1195,
+      "Unknown17": 4,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.55,
+      "Unknown21": 1.5,
+      "Unknown22": 1,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 1,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 158,
+      "Name": "HAZANCHU_L",
+      "Input": 128,
+      "InputFlags": 20496,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 1,
+      "Unknown6": 16644,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -5,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": 24,
+      "ScriptIndex": 1194,
+      "Unknown17": 70,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.0,
+      "Unknown21": 0.0,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+    {
+      "Offset": 0,
+      "Index": 159,
+      "Name": "HAZANCHU_M",
+      "Input": 258,
+      "InputFlags": 20496,
+      "PositionRestriction": 0,
+      "Unknown3": 3,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 1,
+      "Unknown6": 16900,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -5,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": 24,
+      "ScriptIndex": 1193,
+      "Unknown17": 71,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.0,
+      "Unknown21": 0.0,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+    {
+      "Offset": 0,
+      "Index": 160,
+      "Name": "HAZANCHU_H",
+      "Input": 512,
+      "InputFlags": 20496,
+      "PositionRestriction": 0,
+      "Unknown3": 3,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 1,
+      "Unknown6": 17412,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -5,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": 24,
+      "ScriptIndex": 1192,
+      "Unknown17": 72,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.0,
+      "Unknown21": 0.0,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+    {
+      "Offset": 0,
+      "Index": 161,
+      "Name": "HAZANCHU_EX",
+      "Input": 896,
+      "InputFlags": 20528,
+      "PositionRestriction": 0,
+      "Unknown3": 3,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 1,
+      "Unknown6": 16392,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 300,
+      "MeterUsed": 300,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": 24,
+      "ScriptIndex": 1191,
+      "Unknown17": 82,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.9,
+      "Unknown21": 1.5,
+      "Unknown22": 1,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 162,
+      "Name": "4MK_LAUNCH",
+      "Input": 256,
+      "InputFlags": 4112,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 4608,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 1190,
+      "Unknown17": 4,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.55,
+      "Unknown21": 1.5,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 163,
+      "Name": "TENKU_KYAKU",
+      "Input": 256,
+      "InputFlags": 4112,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 4608,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": 25,
+      "ScriptIndex": 1189,
+      "Unknown17": 4,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.55,
+      "Unknown21": 1.5,
+      "Unknown22": 1,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 1,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 164,
+      "Name": "V-PUSH",
+      "Input": 288,
+      "InputFlags": 4128,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 5122,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 300,
+      "VtriggerUsed": 300,
+      "Unknown16": 0,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 1187,
+      "Unknown17": 1004,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.7,
+      "Unknown21": 1.3,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 1,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 165,
+      "Name": "VT_4MK",
+      "Input": 260,
+      "InputFlags": 4626,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": -2147483648,
+      "Unknown6": 4608,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 1186,
+      "Unknown17": 4,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.55,
+      "Unknown21": 1.5,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 2,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 166,
+      "Name": "VT_TENKU_KYAKU",
+      "Input": 256,
+      "InputFlags": 4112,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": -2147483648,
+      "Unknown6": 4608,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": 25,
+      "ScriptIndex": 1185,
+      "Unknown17": 4,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 0.55,
+      "Unknown21": 1.5,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 2,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 167,
+      "Name": "VT_HAZAN_KYAKU",
+      "Input": 896,
+      "InputFlags": 20496,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": -2147483648,
+      "Unknown6": 4608,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": 24,
+      "ScriptIndex": 1182,
+      "Unknown17": 82,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.9,
+      "Unknown21": 1.5,
+      "Unknown22": 1,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 2,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
   ],
   "CancelLists": [
     {
@@ -8952,6 +9461,13 @@
           "ScriptIndex": 601,
           "CancelInts": null,
           "UnknownBytes": "AAEAAAAAAAAAAAUAAAAACgUFAAAFAAoAAAAABQAAAAAAAAAA"
+        },
+		{
+          "Name": "4MK",
+          "Index": 157,
+          "ScriptIndex": 601,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
           "Name": "4MP",
@@ -9078,6 +9594,13 @@
           "ScriptIndex": 814,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAACAAAAAAAAAgIAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_4MK",
+          "Index": 165,
+          "ScriptIndex": 601,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
         {
           "Name": "VT_6MP",
@@ -9295,6 +9818,34 @@
           "ScriptIndex": 862,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "HAZANCHU_L",
+          "Index": 158,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAUHAAAABwcFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_M",
+          "Index": 159,
+          "ScriptIndex": 603,
+          "CancelInts": null,
+          "UnknownBytes": "AAAACgAAAAAAAA8AAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_H",
+          "Index": 160,
+          "ScriptIndex": 672,
+          "CancelInts": null,
+          "UnknownBytes": "AAoAAAAABwAFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_EX",
+          "Index": 161,
+          "ScriptIndex": 604,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAUACgUAAAAFAAoAAAAAAAAABQAAAAAA"
         },
         {
           "Name": "SPNNING_L",
@@ -10307,6 +10858,34 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "HAZANCHU_L",
+          "Index": 158,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAUHAAAABwcFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_M",
+          "Index": 159,
+          "ScriptIndex": 603,
+          "CancelInts": null,
+          "UnknownBytes": "AAAACgAAAAAAAA8AAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_H",
+          "Index": 160,
+          "ScriptIndex": 672,
+          "CancelInts": null,
+          "UnknownBytes": "AAoAAAAABwAFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_EX",
+          "Index": 161,
+          "ScriptIndex": 604,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAUACgUAAAAFAAoAAAAAAAAABQAAAAAA"
+        },
         {
           "Name": "SPNNING_L",
           "Index": 97,
@@ -10620,6 +11199,34 @@
           "ScriptIndex": 862,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "HAZANCHU_L",
+          "Index": 158,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAUHAAAABwcFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_M",
+          "Index": 159,
+          "ScriptIndex": 603,
+          "CancelInts": null,
+          "UnknownBytes": "AAAACgAAAAAAAA8AAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_H",
+          "Index": 160,
+          "ScriptIndex": 672,
+          "CancelInts": null,
+          "UnknownBytes": "AAoAAAAABwAFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_EX",
+          "Index": 161,
+          "ScriptIndex": 604,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAUACgUAAAAFAAoAAAAAAAAABQAAAAAA"
         },
         {
           "Name": "SPNNING_L",
@@ -11260,6 +11867,34 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "HAZANCHU_L",
+          "Index": 158,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAUHAAAABwcFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_M",
+          "Index": 159,
+          "ScriptIndex": 603,
+          "CancelInts": null,
+          "UnknownBytes": "AAAACgAAAAAAAA8AAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_H",
+          "Index": 160,
+          "ScriptIndex": 672,
+          "CancelInts": null,
+          "UnknownBytes": "AAoAAAAABwAFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_EX",
+          "Index": 161,
+          "ScriptIndex": 604,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAUACgUAAAAFAAoAAAAAAAAABQAAAAAA"
+        },
         {
           "Name": "SPNNING_L",
           "Index": 97,
@@ -11349,7 +11984,7 @@
       "Index": 21,
       "Unknown1": 0,
       "Cancels": [
-        {
+		{
           "Name": "V_REVERSAL",
           "Index": 124,
           "ScriptIndex": 890,
@@ -11389,9 +12024,24 @@
       "Cancels": null
     },
     {
-      "Index": 0,
+      "Index": 28,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "TENKU_KYAKU",
+          "Index": 163,
+          "ScriptIndex": 601,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT_TENKU_KYAKU",
+          "Index": 166,
+          "ScriptIndex": 601,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
       "Index": 29,
@@ -11624,6 +12274,34 @@
           "ScriptIndex": 862,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "HAZANCHU_L",
+          "Index": 158,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAUHAAAABwcFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_M",
+          "Index": 159,
+          "ScriptIndex": 603,
+          "CancelInts": null,
+          "UnknownBytes": "AAAACgAAAAAAAA8AAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_H",
+          "Index": 160,
+          "ScriptIndex": 672,
+          "CancelInts": null,
+          "UnknownBytes": "AAoAAAAABwAFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_EX",
+          "Index": 161,
+          "ScriptIndex": 604,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAUACgUAAAAFAAoAAAAAAAAABQAAAAAA"
         },
 				        {
           "Name": "BACK_TOUNT",
@@ -11932,6 +12610,34 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "HAZANCHU_L",
+          "Index": 158,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAUHAAAABwcFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_M",
+          "Index": 159,
+          "ScriptIndex": 603,
+          "CancelInts": null,
+          "UnknownBytes": "AAAACgAAAAAAAA8AAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_H",
+          "Index": 160,
+          "ScriptIndex": 672,
+          "CancelInts": null,
+          "UnknownBytes": "AAoAAAAABwAFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_EX",
+          "Index": 161,
+          "ScriptIndex": 604,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAUACgUAAAAFAAoAAAAAAAAABQAAAAAA"
+        },
         {
           "Name": "SPNNING_L",
           "Index": 97,
@@ -12047,9 +12753,17 @@
       ]
    },
     {
-      "Index": 0,
+      "Index": 34,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "4MK_LAUNCH",
+          "Index": 162,
+          "ScriptIndex": 601,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
       "Index": 35,
@@ -12363,9 +13077,17 @@
       ]
     },
     {
-      "Index": 0,
+      "Index": 39,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "VT_HAZAN_KYAKU",
+          "Index": 167,
+          "ScriptIndex": 601,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+	  ]
     },
     {
       "Index": 40,
@@ -14214,9 +14936,38 @@
       "Cancels": null
     },
     {
-      "Index": 0,
+      "Index": 96,
       "Unknown1": 0,
-      "Cancels": null
+      "Cancels": [
+	  {
+          "Name": "HAZANCHU_L",
+          "Index": 158,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAUHAAAABwcFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_M",
+          "Index": 159,
+          "ScriptIndex": 603,
+          "CancelInts": null,
+          "UnknownBytes": "AAAACgAAAAAAAA8AAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_H",
+          "Index": 160,
+          "ScriptIndex": 672,
+          "CancelInts": null,
+          "UnknownBytes": "AAoAAAAABwAFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_EX",
+          "Index": 161,
+          "ScriptIndex": 604,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAUACgUAAAAFAAoAAAAAAAAABQAAAAAA"
+        },
+	  ]
     },
     {
       "Index": 97,
@@ -15121,6 +15872,34 @@
           "ScriptIndex": 862,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "HAZANCHU_L",
+          "Index": 158,
+          "ScriptIndex": 600,
+          "CancelInts": null,
+          "UnknownBytes": "AAUHAAAABwcFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_M",
+          "Index": 159,
+          "ScriptIndex": 603,
+          "CancelInts": null,
+          "UnknownBytes": "AAAACgAAAAAAAA8AAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_H",
+          "Index": 160,
+          "ScriptIndex": 672,
+          "CancelInts": null,
+          "UnknownBytes": "AAoAAAAABwAFBwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+        {
+          "Name": "HAZANCHU_EX",
+          "Index": 161,
+          "ScriptIndex": 604,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAUACgUAAAAFAAoAAAAAAAAABQAAAAAA"
         },
         {
           "Name": "SPNNING_L",

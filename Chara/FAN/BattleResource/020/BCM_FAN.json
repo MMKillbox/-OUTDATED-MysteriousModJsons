@@ -9509,6 +9509,13 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "V_TRIGGER",
+          "Index": 84,
+          "ScriptIndex": 740,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "C_V_TRIGGER_2",
           "Index": 87,

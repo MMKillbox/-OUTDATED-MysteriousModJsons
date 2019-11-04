@@ -2053,6 +2053,118 @@
       ],
       "Name": "SHOURYU_L, SHOURYU_M, SHOURYU_H, SHOURYU_EX, VT_01_SHOURYU_L, VT_01_SHOURYU_M, VT_01_SHOURYU_H, VT_01_SHOURYU_EX, "
     },
+	{
+      "Index": 22,
+      "InputEntries": [
+        {
+          "InputParts": [
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Down, Back",
+              "Unknown1": 2,
+              "Unknown2": 4096,
+              "Unknown3": 2,
+              "Unknown4": 0,
+              "Unknown5": 0
+            }
+          ]
+        },
+        {
+          "InputParts": [
+            {
+              "Buffer": 8,
+              "InputType": "Normal",
+              "InputDirection": "Back",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Down, Back",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            }
+          ]
+        },
+        {
+          "InputParts": [
+            {
+              "Buffer": 8,
+              "InputType": "Normal",
+              "InputDirection": "Back",
+              "Unknown1": 1,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 8,
+              "InputType": "Normal",
+              "InputDirection": "Down",
+              "Unknown1": 33,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 8,
+              "InputType": "Normal",
+              "InputDirection": "Back",
+              "Unknown1": 1,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            }
+          ]
+        },
+        {
+          "InputParts": [
+            {
+              "Buffer": 8,
+              "InputType": "Normal",
+              "InputDirection": "Back",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 8,
+              "InputType": "Normal",
+              "InputDirection": "Down",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 12,
+              "InputType": "Normal",
+              "InputDirection": "Down, Back",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            }
+          ]
+        }
+      ],
+      "Name": "SHOURYU_L, SHOURYU_M, SHOURYU_H, SHOURYU_EX, VT1_01_SHOURYU_L, VT1_01_SHOURYU_M, VT1_01_SHOURYU_H, VT1_01_SHOURYU_EX, "
+    },
   ],
   "Moves": [
     {
@@ -5260,7 +5372,7 @@
       "VtriggerRequirement": 0,
       "VtriggerUsed": 0,
       "Unknown16": 0,
-      "InputMotionIndex": 21,
+      "InputMotionIndex": 22,
       "ScriptIndex": 1598,
       "Unknown17": 1011,
       "Unknown18": 0,
@@ -5297,7 +5409,7 @@
       "VtriggerRequirement": 0,
       "VtriggerUsed": 0,
       "Unknown16": 0,
-      "InputMotionIndex": 21,
+      "InputMotionIndex": 22,
       "ScriptIndex": 1595,
       "Unknown17": 1012,
       "Unknown18": 0,
@@ -5378,6 +5490,80 @@
       "Unknown19": 0,
       "Unknown20": 0.0,
       "Unknown21": 0.0,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 90,
+      "Name": "BANISH_LMH",
+      "Input": 112,
+      "InputFlags": 20496,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 1028,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -20,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": 21,
+      "ScriptIndex": 1592,
+      "Unknown17": 1011,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.1,
+      "Unknown21": 1.5,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+	{
+      "Offset": 0,
+      "Index": 91,
+      "Name": "BANISH_EX",
+      "Input": 112,
+      "InputFlags": 20528,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 8,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 300,
+      "MeterUsed": 300,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": 21,
+      "ScriptIndex": 1591,
+      "Unknown17": 1012,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.1,
+      "Unknown21": 1.5,
       "Unknown22": 0,
       "Unknown23": 0,
       "Unknown24": 0,
@@ -5507,6 +5693,20 @@
 		{
           "Name": "SHOURYU_SCREW_EX",
           "Index": 87,
+          "ScriptIndex": 900,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "BANISH_LMH",
+          "Index": 90,
+          "ScriptIndex": 900,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "BANISH_EX",
+          "Index": 91,
           "ScriptIndex": 900,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -6182,6 +6382,20 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "BANISH_LMH",
+          "Index": 90,
+          "ScriptIndex": 900,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "BANISH_EX",
+          "Index": 91,
+          "ScriptIndex": 900,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "SCREW_L",
           "Index": 24,
@@ -6327,6 +6541,20 @@
 		{
           "Name": "SHOURYU_SCREW_EX",
           "Index": 87,
+          "ScriptIndex": 900,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "BANISH_LMH",
+          "Index": 90,
+          "ScriptIndex": 900,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "BANISH_EX",
+          "Index": 91,
           "ScriptIndex": 900,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -6928,6 +7156,20 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "BANISH_LMH",
+          "Index": 90,
+          "ScriptIndex": 900,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "BANISH_EX",
+          "Index": 91,
+          "ScriptIndex": 900,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "SCREW_L",
           "Index": 24,
@@ -7150,6 +7392,20 @@
 		{
           "Name": "SHOURYU_SCREW_EX",
           "Index": 87,
+          "ScriptIndex": 900,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "BANISH_LMH",
+          "Index": 90,
+          "ScriptIndex": 900,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "BANISH_EX",
+          "Index": 91,
           "ScriptIndex": 900,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -7499,6 +7755,20 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "BANISH_LMH",
+          "Index": 90,
+          "ScriptIndex": 900,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "BANISH_EX",
+          "Index": 91,
+          "ScriptIndex": 900,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "SCREW_L",
           "Index": 24,
@@ -7648,6 +7918,20 @@
 		{
           "Name": "SHOURYU_SCREW_EX",
           "Index": 87,
+          "ScriptIndex": 900,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "BANISH_LMH",
+          "Index": 90,
+          "ScriptIndex": 900,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "BANISH_EX",
+          "Index": 91,
           "ScriptIndex": 900,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"

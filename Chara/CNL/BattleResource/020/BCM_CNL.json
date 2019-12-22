@@ -10001,62 +10001,6 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAAAFAAIAAAAA"
         },
-        {
-          "Name": "CPU_5LK",
-          "Index": 132,
-          "ScriptIndex": 1008,
-          "CancelInts": null,
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-        {
-          "Name": "CPU_VT_5LK",
-          "Index": 133,
-          "ScriptIndex": 1009,
-          "CancelInts": null,
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-        {
-          "Name": "CPU_2LP",
-          "Index": 134,
-          "ScriptIndex": 1003,
-          "CancelInts": null,
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-        {
-          "Name": "CPU_2MK",
-          "Index": 135,
-          "ScriptIndex": 1000,
-          "CancelInts": null,
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-        {
-          "Name": "CPU_YOKUSEN",
-          "Index": 136,
-          "ScriptIndex": 1002,
-          "CancelInts": null,
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-        {
-          "Name": "CPU_VT_2LP",
-          "Index": 137,
-          "ScriptIndex": 999,
-          "CancelInts": null,
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-        {
-          "Name": "CPU_VT_2MK",
-          "Index": 138,
-          "ScriptIndex": 1001,
-          "CancelInts": null,
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-        {
-          "Name": "CPU_VT_SENENSHU",
-          "Index": 139,
-          "ScriptIndex": 1004,
-          "CancelInts": null,
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
 		{
           "Name": "QCF_VCANCEL",
           "Index": 156,
@@ -13653,20 +13597,6 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
-        {
-          "Name": "CPU_2LP",
-          "Index": 134,
-          "ScriptIndex": 1003,
-          "CancelInts": null,
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },
-        {
-          "Name": "CPU_VT_2LP",
-          "Index": 137,
-          "ScriptIndex": 999,
-          "CancelInts": null,
-          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        }
       ]
     },
     {

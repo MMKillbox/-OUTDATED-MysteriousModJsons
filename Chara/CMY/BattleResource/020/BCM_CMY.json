@@ -3627,7 +3627,7 @@
       "Unknown16": 0,
       "InputMotionIndex": -1,
       "ScriptIndex": 854,
-      "Unknown17": 111,
+      "Unknown17": 8388719,
       "Unknown18": 0,
       "Unknown19": 0,
       "Unknown20": 1.0,
@@ -5010,6 +5010,80 @@
       "NormalOrVtrigger": 0,
       "Unknown28": 0
     },
+	{
+      "Offset": 0,
+      "Index": 94,
+      "Name": "V_SKILL_2",
+      "Input": 288,
+      "InputFlags": 4128,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 32,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 875,
+      "Unknown17": 8454270,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.0,
+      "Unknown21": 1.3,
+      "Unknown22": 1,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+    {
+      "Offset": 0,
+      "Index": 95,
+      "Name": "V_SKILL_2_CANCEL",
+      "Input": 288,
+      "InputFlags": 4128,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 32,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 876,
+      "Unknown17": 8454270,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.0,
+      "Unknown21": 1.3,
+      "Unknown22": 1,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
   ],
   "CancelLists": [
     {
@@ -5255,6 +5329,13 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 		{
+          "Name": "V_SKILL_2_CANCEL",
+          "Index": 95,
+          "ScriptIndex": 876,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
           "Name": "CA2_GROUND_L",
           "Index": 90,
           "ScriptIndex": 600,
@@ -5278,6 +5359,13 @@
         {
           "Name": "V_SKILL",
           "Index": 56,
+          "ScriptIndex": 854,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_SKILL_2",
+          "Index": 94,
           "ScriptIndex": 854,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -5903,6 +5991,13 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 		{
+          "Name": "V_SKILL_2_CANCEL",
+          "Index": 95,
+          "ScriptIndex": 876,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
           "Name": "CA2_GROUND_L",
           "Index": 90,
           "ScriptIndex": 600,
@@ -6119,6 +6214,13 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 		{
+          "Name": "V_SKILL_2_CANCEL",
+          "Index": 95,
+          "ScriptIndex": 876,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
           "Name": "CA2_GROUND_L",
           "Index": 90,
           "ScriptIndex": 600,
@@ -6265,6 +6367,13 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 		{
+          "Name": "V_SKILL_2_CANCEL",
+          "Index": 95,
+          "ScriptIndex": 876,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
           "Name": "CA2_GROUND_L",
           "Index": 90,
           "ScriptIndex": 600,
@@ -6288,6 +6397,13 @@
         {
           "Name": "V_SKILL",
           "Index": 56,
+          "ScriptIndex": 854,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_SKILL_2",
+          "Index": 94,
           "ScriptIndex": 854,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -6412,6 +6528,13 @@
 	  {
           "Name": "V_SKILL",
           "Index": 56,
+          "ScriptIndex": 854,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_SKILL_2",
+          "Index": 94,
           "ScriptIndex": 854,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -6745,6 +6868,13 @@
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
 		{
+          "Name": "V_SKILL_2_CANCEL",
+          "Index": 95,
+          "ScriptIndex": 876,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
           "Name": "CA2_GROUND_L",
           "Index": 90,
           "ScriptIndex": 600,
@@ -6968,6 +7098,13 @@
           "Name": "CA_H",
           "Index": 55,
           "ScriptIndex": 1202,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "V_SKILL_2_CANCEL",
+          "Index": 95,
+          "ScriptIndex": 876,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },

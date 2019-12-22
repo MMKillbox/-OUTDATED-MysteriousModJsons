@@ -3551,7 +3551,149 @@
         }
       ],
       "Name": "CA, CA_CANCEL, "
-    }
+    },
+	{
+      "Index": 40,
+      "InputEntries": [
+        {
+          "InputParts": [
+            {
+              "Buffer": 12,
+              "InputType": "Charge",
+              "InputDirection": "Neutral",
+              "Unknown1": 0,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 5,
+              "InputType": "Normal",
+              "InputDirection": "Down, Forward",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 1,
+              "Unknown5": 0
+            },
+			{
+              "Buffer": 5,
+              "InputType": "Normal",
+              "InputDirection": "Forward",
+              "Unknown1": 0,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+          ]
+        },
+        {
+          "InputParts": [
+            {
+              "Buffer": 12,
+              "InputType": "Charge",
+              "InputDirection": "Neutral",
+              "Unknown1": 0,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 5,
+              "InputType": "Normal",
+              "InputDirection": "Down, Forward",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 1,
+              "Unknown5": 0
+            },
+			{
+              "Buffer": 5,
+              "InputType": "Normal",
+              "InputDirection": "Forward",
+              "Unknown1": 0,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+          ]
+        },
+        {
+          "InputParts": [
+            {
+              "Buffer": 12,
+              "InputType": "Charge",
+              "InputDirection": "Neutral",
+              "Unknown1": 0,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 5,
+              "InputType": "Normal",
+              "InputDirection": "Down, Forward",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 1,
+              "Unknown5": 0
+            },
+			{
+              "Buffer": 5,
+              "InputType": "Normal",
+              "InputDirection": "Forward",
+              "Unknown1": 0,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+          ]
+        },
+        {
+          "InputParts": [
+            {
+              "Buffer": 12,
+              "InputType": "Charge",
+              "InputDirection": "Neutral",
+              "Unknown1": 0,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+            {
+              "Buffer": 5,
+              "InputType": "Normal",
+              "InputDirection": "Down, Forward",
+              "Unknown1": 2,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 1,
+              "Unknown5": 0
+            },
+			{
+              "Buffer": 5,
+              "InputType": "Normal",
+              "InputDirection": "Forward",
+              "Unknown1": 0,
+              "Unknown2": 0,
+              "Unknown3": 0,
+              "Unknown4": 0,
+              "Unknown5": 0
+            },
+          ]
+        }
+      ],
+      "Name": "DASH-LOW, "
+    },
   ],
   "Moves": [
     {
@@ -4686,7 +4828,7 @@
       "VtriggerRequirement": 0,
       "VtriggerUsed": 0,
       "Unknown16": 0,
-      "InputMotionIndex": 13,
+      "InputMotionIndex": 40,
       "ScriptIndex": 907,
       "Unknown17": 73,
       "Unknown18": 0,
@@ -4723,7 +4865,7 @@
       "VtriggerRequirement": 0,
       "VtriggerUsed": 0,
       "Unknown16": 0,
-      "InputMotionIndex": 13,
+      "InputMotionIndex": 40,
       "ScriptIndex": 908,
       "Unknown17": 74,
       "Unknown18": 0,
@@ -4760,7 +4902,7 @@
       "VtriggerRequirement": 0,
       "VtriggerUsed": 0,
       "Unknown16": 0,
-      "InputMotionIndex": 13,
+      "InputMotionIndex": 40,
       "ScriptIndex": 909,
       "Unknown17": 75,
       "Unknown18": 0,
@@ -4797,7 +4939,7 @@
       "VtriggerRequirement": 0,
       "VtriggerUsed": 0,
       "Unknown16": 0,
-      "InputMotionIndex": 13,
+      "InputMotionIndex": 40,
       "ScriptIndex": 910,
       "Unknown17": 98,
       "Unknown18": 0,
@@ -8177,6 +8319,154 @@
       "NormalOrVtrigger": 0,
       "Unknown28": 0
     },
+	{
+      "Offset": 0,
+      "Index": 125,
+      "Name": "DASH-UPPER-L",
+      "Input": 128,
+      "InputFlags": 20496,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 260,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -10,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": 13,
+      "ScriptIndex": 1596,
+      "Unknown17": 70,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.3,
+      "Unknown21": 1.55,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+    {
+      "Offset": 0,
+      "Index": 126,
+      "Name": "DASH-UPPER-M",
+      "Input": 256,
+      "InputFlags": 20496,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 516,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -10,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": 13,
+      "ScriptIndex": 1595,
+      "Unknown17": 71,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.3,
+      "Unknown21": 1.55,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+    {
+      "Offset": 0,
+      "Index": 127,
+      "Name": "DASH-UPPER-H",
+      "Input": 516,
+      "InputFlags": 20496,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 1028,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": -10,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": 13,
+      "ScriptIndex": 1594,
+      "Unknown17": 72,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.3,
+      "Unknown21": 1.55,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
+    {
+      "Offset": 0,
+      "Index": 128,
+      "Name": "DASH-UPPER-EX",
+      "Input": 896,
+      "InputFlags": 20528,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": 0,
+      "Unknown6": 8,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 300,
+      "MeterUsed": 300,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 0,
+      "InputMotionIndex": 13,
+      "ScriptIndex": 1593,
+      "Unknown17": 97,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.3,
+      "Unknown21": 1.55,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
   ],
   "CancelLists": [
     {
@@ -8337,6 +8627,34 @@
           "Name": "DASH-GROUND-EX",
           "Index": 33,
           "ScriptIndex": 910,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "DASH-UPPER-L",
+          "Index": 125,
+          "ScriptIndex": 904,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "DASH-UPPER-M",
+          "Index": 126,
+          "ScriptIndex": 904,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "DASH-UPPER-H",
+          "Index": 127,
+          "ScriptIndex": 904,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "DASH-UPPER-EX",
+          "Index": 128,
+          "ScriptIndex": 904,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -8784,6 +9102,34 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "DASH-UPPER-L",
+          "Index": 125,
+          "ScriptIndex": 904,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "DASH-UPPER-M",
+          "Index": 126,
+          "ScriptIndex": 904,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "DASH-UPPER-H",
+          "Index": 127,
+          "ScriptIndex": 904,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "DASH-UPPER-EX",
+          "Index": 128,
+          "ScriptIndex": 904,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "SCREW-L",
           "Index": 46,
@@ -9011,6 +9357,34 @@
           "Name": "DASH-GROUND-EX",
           "Index": 33,
           "ScriptIndex": 910,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "DASH-UPPER-L",
+          "Index": 125,
+          "ScriptIndex": 904,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "DASH-UPPER-M",
+          "Index": 126,
+          "ScriptIndex": 904,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "DASH-UPPER-H",
+          "Index": 127,
+          "ScriptIndex": 904,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "DASH-UPPER-EX",
+          "Index": 128,
+          "ScriptIndex": 904,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
@@ -9460,6 +9834,34 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "DASH-UPPER-L",
+          "Index": 125,
+          "ScriptIndex": 904,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "DASH-UPPER-M",
+          "Index": 126,
+          "ScriptIndex": 904,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "DASH-UPPER-H",
+          "Index": 127,
+          "ScriptIndex": 904,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "DASH-UPPER-EX",
+          "Index": 128,
+          "ScriptIndex": 904,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "SCREW-L",
           "Index": 46,
@@ -9768,6 +10170,34 @@
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },
+		{
+          "Name": "DASH-UPPER-L",
+          "Index": 125,
+          "ScriptIndex": 904,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "DASH-UPPER-M",
+          "Index": 126,
+          "ScriptIndex": 904,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "DASH-UPPER-H",
+          "Index": 127,
+          "ScriptIndex": 904,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "DASH-UPPER-EX",
+          "Index": 128,
+          "ScriptIndex": 904,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
         {
           "Name": "SCREW-L",
           "Index": 46,
@@ -10003,6 +10433,34 @@
           "Name": "VT2 START",
           "Index": 92,
           "ScriptIndex": 780,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT2 THROW",
+          "Index": 94,
+          "ScriptIndex": 782,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA",
+          "Index": 81,
+          "ScriptIndex": 1200,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "CA2",
+          "Index": 108,
+          "ScriptIndex": 1200,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "QCF_V_CANCEL",
+          "Index": 124,
+          "ScriptIndex": 1200,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         },

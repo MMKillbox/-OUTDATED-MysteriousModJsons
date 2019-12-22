@@ -5972,6 +5972,43 @@
       "NormalOrVtrigger": 0,
       "Unknown28": 0
     },
+	{
+      "Offset": 0,
+      "Index": 95,
+      "Name": "VT2_2HK",
+      "Input": 514,
+      "InputFlags": 4625,
+      "PositionRestriction": 0,
+      "Unknown3": 0,
+      "RestrictionDistance": 0.0,
+      "Unknown4": 0,
+      "ProjectileLimit": -2147418112,
+      "Unknown6": 5120,
+      "Unknown7": 0,
+      "Unknown8": 1,
+      "Unknown9": 0,
+      "MeterRequirement": 0,
+      "MeterUsed": 0,
+      "Unknown10": 0,
+      "Unknown11": 0,
+      "VtriggerRequirement": 0,
+      "VtriggerUsed": 0,
+      "Unknown16": 1,
+      "InputMotionIndex": -1,
+      "ScriptIndex": 618,
+      "Unknown17": 11,
+      "Unknown18": 0,
+      "Unknown19": 0,
+      "Unknown20": 1.7,
+      "Unknown21": 0.4,
+      "Unknown22": 0,
+      "Unknown23": 0,
+      "Unknown24": 0,
+      "Unknown25": 0,
+      "Unknown26": 0,
+      "NormalOrVtrigger": 0,
+      "Unknown28": 0
+    },
   ],
   "CancelLists": [
     {
@@ -6058,6 +6095,13 @@
         {
           "Name": "2HK",
           "Index": 11,
+          "ScriptIndex": 617,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },
+		{
+          "Name": "VT2_2HK",
+          "Index": 95,
           "ScriptIndex": 617,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -10100,7 +10144,14 @@
           "ScriptIndex": 617,
           "CancelInts": null,
           "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-        },	
+        },
+		{
+          "Name": "VT2_2HK",
+          "Index": 95,
+          "ScriptIndex": 617,
+          "CancelInts": null,
+          "UnknownBytes": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        },		
       ]
     },
     {
